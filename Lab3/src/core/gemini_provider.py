@@ -1,0 +1,81 @@
+import os
+import time
+import google.generativeai as genai
+from typing import Dict, Any, Optional, Generator
+from src.core.llm_provider import LLMProvider
+
+class GeminiProvider(LLMProvider):
+    def __init__(self, model_name: str = "gemini-1.5-flash", api_key: Optional[str] = None):
+        super().__init__(model_name, api_key)
+        genai.configure(api_key=self.api_key)
+        self.model = genai.GenerativeModel(model_name)
+
+    def generate(self, prompt: str, system_prompt: Optional[str] = None) -> Dict[str, Any]:
+        start_time = time.time()
+        
+        # In Gemini, system instruction is passed during model initialization or as a prefix
+        # For simplicity in this lab, we'll prepend it if provided
+        full_prompt = prompt
+        if system_prompt:
+            full_prompt = f"System: {system_prompt}\n\nUser: {prompt}"
+
+        response = self.model.generate_content(full_prompt)
+
+        end_time = time.time()
+        latency_ms = int((end_time - start_time) * 1000)
+
+        content = self._extract_text(response)
+        if not content:
+            finish_reason = self._finish_reason(response)
+            content = (
+                "Gemini did not return a text response"
+                + (f" (finish_reason={finish_reason})." if finish_reason is not None else ".")
+            )
+
+        usage_metadata = getattr(response, "usage_metadata", None)
+        usage = {
+            "prompt_tokens": getattr(usage_metadata, "prompt_token_count", 0),
+            "completion_tokens": getattr(usage_metadata, "candidates_token_count", 0),
+            "total_tokens": getattr(usage_metadata, "total_token_count", 0)
+        }
+
+        return {
+            "content": content,
+            "usage": usage,
+            "latency_ms": latency_ms,
+            "provider": "google"
+        }
+
+    def stream(self, prompt: str, system_prompt: Optional[str] = None) -> Generator[str, None, None]:
+        full_prompt = prompt
+        if system_prompt:
+            full_prompt = f"System: {system_prompt}\n\nUser: {prompt}"
+
+        response = self.model.generate_content(full_prompt, stream=True)
+        for chunk in response:
+            text = self._extract_text(chunk)
+            if text:
+                yield text
+
+    @staticmethod
+    def _extract_text(response: Any) -> str:
+        parts = []
+        for candidate in getattr(response, "candidates", []) or []:
+            content = getattr(candidate, "content", None)
+            for part in getattr(content, "parts", []) or []:
+                text = getattr(part, "text", None)
+                if text:
+                    parts.append(text)
+        if parts:
+            return "".join(parts).strip()
+        try:
+            return response.text.strip()
+        except (AttributeError, ValueError):
+            return ""
+
+    @staticmethod
+    def _finish_reason(response: Any) -> Any:
+        candidates = getattr(response, "candidates", []) or []
+        if not candidates:
+            return None
+        return getattr(candidates[0], "finish_reason", None)
