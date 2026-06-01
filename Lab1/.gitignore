@@ -1,0 +1,4 @@
+.env
+solution.zip
+__pycache__/
+*.pyc
