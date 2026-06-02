@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBuddy — Trợ lý du lịch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-scene" aria-hidden="true"></div>
+    <div class="app">
+      <header class="header">
+        <div class="brand">
+          <span class="brand-icon">✈</span>
+          <div>
+            <h1>TravelBuddy</h1>
+            <p>Chuyến bay → Ngân sách → Khách sạn</p>
+          </div>
+        </div>
+        <div class="header-meta">
+          <label class="field-inline">
+            <span>Ngày tham chiếu</span>
+            <input type="date" id="today" value="2026-05-31" />
+          </label>
+          <span id="status-pill" class="pill pill-muted">Đang kết nối…</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="panel panel-side">
+          <h2>Gợi ý câu hỏi</h2>
+          <p class="hint">Nhấn để điền — tiếng Việt có dấu, tự nhiên như khi nhắn tin.</p>
+          <div id="example-list" class="example-list"></div>
+          <div class="scope-card">
+            <strong>Phạm vi hệ thống</strong>
+            <p>Chỉ có dữ liệu chuyến bay nội địa xuất phát từ TP.HCM. Câu hỏi ngoài phạm vi sẽ được giải thích hoặc làm rõ.</p>
+          </div>
+        </aside>
+
+        <section class="panel panel-chat">
+          <div id="messages" class="messages" role="log" aria-live="polite"></div>
+
+          <form id="chat-form" class="composer">
+            <textarea
+              id="query"
+              rows="3"
+              placeholder="Ví dụ: Tôi muốn đi Đà Nẵng cuối tuần này từ TP.HCM, budget 5 triệu cho 2 đêm, ưu tiên gần biển…"
+              required
+            ></textarea>
+            <div class="composer-actions">
+              <button type="button" id="clear-btn" class="btn btn-ghost">Xóa hội thoại</button>
+              <button type="submit" id="send-btn" class="btn btn-primary">
+                <span class="btn-label">Gửi</span>
+                <span class="spinner hidden" id="spinner"></span>
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <aside class="panel panel-tools">
+          <h2>Tool trace</h2>
+          <div id="pipeline" class="pipeline">
+            <div class="pipe-step" data-tool="search_flights">✈ Chuyến bay</div>
+            <div class="pipe-arrow">→</div>
+            <div class="pipe-step" data-tool="calculate_budget">💰 Ngân sách</div>
+            <div class="pipe-arrow">→</div>
+            <div class="pipe-step" data-tool="search_hotels">🏨 Khách sạn</div>
+          </div>
+          <div id="tool-details" class="tool-details">
+            <p class="muted">Gửi câu hỏi để xem chi tiết từng bước.</p>
+          </div>
+        </aside>
+      </main>
+    </div>
+    <script src="/assets/app.js" type="module"></script>
+  </body>
+</html>
