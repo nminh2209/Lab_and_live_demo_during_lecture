@@ -52,7 +52,7 @@ def build_chat_model(
         from langchain_ollama import ChatOllama
 
         return ChatOllama(
-            model=model_name or os.getenv("OLLAMA_MODEL", "qwen3.5:3b"),
+            model=model_name or os.getenv("OLLAMA_MODEL", "qwen2.5:3b"),
             base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
             temperature=temperature,
         )

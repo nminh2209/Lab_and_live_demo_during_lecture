@@ -55,7 +55,7 @@ LLM_MODEL=gemini-2.5-flash
 Optional local model:
 
 ```bash
-OLLAMA_MODEL=qwen3.5:3b
+OLLAMA_MODEL=qwen2.5:3b
 OLLAMA_BASE_URL=http://localhost:11434
 ```
 

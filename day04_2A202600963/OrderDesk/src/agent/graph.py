@@ -343,6 +343,10 @@ def _guardrail_response(query: str) -> str | None:
         "manual discount",
         "giam gia 90",
         "ep giam gia",
+        "ma giam gia 100",
+        "giam gia 100",
+        "100 phan tram",
+        "100%",
     )
     if any(pattern in text for pattern in bad_patterns):
         return (

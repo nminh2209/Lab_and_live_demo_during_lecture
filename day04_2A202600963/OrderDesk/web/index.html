@@ -93,6 +93,12 @@
         grid-template-columns: 1fr 1fr;
         gap: 8px;
       }
+      .provider-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 8px;
+        align-items: center;
+      }
       button {
         border: none;
         color: #fff;
@@ -166,6 +172,15 @@
       .chip:hover {
         background: var(--fb-blue-soft);
         border-color: #bcd8ff;
+      }
+      select {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid var(--fb-border);
+        font-size: 14px;
+        padding: 9px 10px;
+        background: #fff;
+        color: var(--fb-text);
       }
 
       .chatbox {
@@ -271,9 +286,14 @@
           </div>
           <div class="catalog" id="catalogList">Đang tải danh mục sản phẩm...</div>
           <textarea id="query" placeholder="Nhập yêu cầu tạo đơn..."></textarea>
-          <div class="row2">
-            <input id="provider" value="openai" placeholder="openai/google/ollama" />
+          <div class="provider-row">
+            <select id="provider">
+              <option value="openai">openai</option>
+              <option value="ollama">ollama (local)</option>
+              <option value="google">google</option>
+            </select>
             <input id="modelName" placeholder="Model (optional)" />
+            <button id="useLocalBtn" class="mini-btn">Use local</button>
           </div>
           <button id="runBtn">Chạy agent</button>
         </section>
@@ -306,6 +326,7 @@
       const queryEl = document.getElementById("query");
       const providerEl = document.getElementById("provider");
       const modelNameEl = document.getElementById("modelName");
+      const useLocalBtn = document.getElementById("useLocalBtn");
       const chatboxEl = document.getElementById("chatbox");
       const usecasesEl = document.getElementById("usecases");
       const catalogListEl = document.getElementById("catalogList");
@@ -326,6 +347,12 @@
       ];
       let allProducts = [];
 
+      const providerModelHints = {
+        openai: "gpt-4.1-mini (or leave empty)",
+        ollama: "qwen2.5:3b (or your local model)",
+        google: "gemini-2.5-flash (or leave empty)"
+      };
+
       function addBubble(role, text) {
         const div = document.createElement("div");
         div.className = `bubble ${role}`;
@@ -343,6 +370,20 @@
           queryEl.focus();
         });
         usecasesEl.appendChild(button);
+      });
+
+      function updateModelHint() {
+        const provider = providerEl.value;
+        modelNameEl.placeholder = providerModelHints[provider] || "Model (optional)";
+      }
+
+      providerEl.addEventListener("change", updateModelHint);
+      updateModelHint();
+
+      useLocalBtn.addEventListener("click", () => {
+        providerEl.value = "ollama";
+        modelNameEl.value = modelNameEl.value.trim() || "qwen2.5:3b";
+        updateModelHint();
       });
 
       function formatPrice(value) {
@@ -446,7 +487,7 @@
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               query,
-              provider: providerEl.value.trim() || "openai",
+              provider: providerEl.value || "openai",
               model_name: modelNameEl.value.trim() || null
             })
           });
