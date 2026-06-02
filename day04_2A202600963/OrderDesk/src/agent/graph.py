@@ -378,11 +378,12 @@ def _extract_order_fields(query: str, store: OrderDataStore) -> dict[str, Any]:
     )
 
     items = _extract_items(query, store)
+    raw_address = address_match.group(1).strip(" .,") if address_match else ""
     return {
         "customer_name": name_match.group(1).strip() if name_match else "",
         "customer_phone": phone,
         "customer_email": email_match.group(0).strip() if email_match else "",
-        "shipping_address": address_match.group(1).strip(" .,") if address_match else "",
+        "shipping_address": _clean_address(raw_address),
         "items": items,
     }
 
@@ -400,7 +401,7 @@ def _extract_items(query: str, store: OrderDataStore) -> list[OrderLineInput]:
         if not normalized_name:
             continue
         raw_name = re.escape(normalized_name).replace("\\ ", r"\s+")
-        pattern = rf"(?<![\w-])(\d{{1,2}})\s+{raw_name}(?![\w-])"
+        pattern = rf"(?<![\w-])(\d{{1,4}})\s+(?:cai|chiec|bo)?\s*{raw_name}(?![\w-])"
         match = re.search(pattern, folded_query)
         if match:
             counts[product_id] = int(match.group(1))
@@ -431,6 +432,13 @@ def _has_item_request_text(query: str) -> bool:
         return True
     hints = ("toi can", "mua", "chot item", "chot", "can", "items")
     return any(hint in folded for hint in hints)
+
+
+def _clean_address(value: str) -> str:
+    if not value:
+        return ""
+    parts = re.split(r",\s*(?:đơn hàng|don hang|tôi cần|toi can|mua|chốt|chot|items?)\b", value, maxsplit=1, flags=re.IGNORECASE)
+    return parts[0].strip(" .,")
 
 
 def _success_answer(save_result: dict[str, Any]) -> str:
