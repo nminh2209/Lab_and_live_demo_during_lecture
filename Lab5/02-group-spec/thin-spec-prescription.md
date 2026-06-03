@@ -1,6 +1,6 @@
 # Thin SPEC — Scan Đơn Thuốc → Lịch Uống + Thẻ Thuốc
 
-Bản cam kết Day 06 — track đổi từ V-AI (archived: `thin-spec-v-ai.md`).
+Bản cam kết Day 06 — track đổi từ V-App (archived: `thin-spec-V-App.md`).
 
 ---
 
@@ -20,19 +20,23 @@ Bản cam kết Day 06 — track đổi từ V-AI (archived: `thin-spec-v-ai.md`
 | Gõ lịch 3 thuốc ~10–15 phút, hay sai tần suất | Self-use | Friction + error | Parse + review bắt buộc |
 | Không hiểu tên thuốc trên đơn | Self-use + Google | Cần drug card | DB demo + plain Vietnamese |
 | OCR ảnh đơn in: tên OK, tần suất cần sửa | Self-use | Low-confidence | Review UI, không auto-save |
-| V-AI không deep-link nhắc thuốc in-app | `v-ai-app-teardown.md` | Super-app gap | Prototype độc lập, Vinmec backlog |
-| App nhắc thuốc: nhập tay | Store review _(bổ sung)_ | Competitor baseline | Scan-first differentiation |
+| V-App không deep-link nhắc thuốc in-app | `V-App-app-teardown.md` | Super-app gap | Prototype độc lập, Vinmec backlog |
+| MyTherapy Google Play crawl: reminder/tracker có 5M+ installs, rating ~4.55; review sample nhắc add/enter meds, dose/dosage, reminders, alarms, refill | `google-play-scraper` crawl — [evidences/mytherapy_google_play_evidence.xlsx](evidences/mytherapy_google_play_evidence.xlsx) | Competitor baseline: reminder hữu ích sau khi lịch đã có | Scan-first differentiation |
 
 ---
 
 ## 3. Pain statement
 
 ```text
-Người bệnh sau khám đang gặp khó ở bước chuyển đơn thuốc thành lịch uống hàng ngày,
-vì phải đọc chữ trên đơn, tự gõ giờ/liều vào app hoặc calendar, dễ sai (vd. 3 lần/ngày → 1 lần),
-dẫn tới quên uống, uống sai giờ, hoặc không hiểu thuốc để uống an toàn.
-Bằng chứng chính: self-use gõ tay ~10–15 phút cho 3 thuốc; OCR thử cần sửa tần suất;
-quan sát phải Google từng tên thuốc để hiểu công dụng.
+Người bệnh (hoặc người nhà) sau khi khám đang gặp khó ở bước chuyển tiếp từ đơn thuốc giấy/PDF sang lịch uống thực tế hàng ngày,
+vì việc tự đọc chữ và gõ thủ công từng tên thuốc, liều lượng, giờ giấc vào điện thoại rất tốn thời gian (~10-15 phút cho đơn 3 thuốc) và dễ nhập sai tần suất/liều lượng, đồng thời các app nhắc thuốc hiện tại chưa hỗ trợ quét đơn tiếng Việt và không giải thích rõ công dụng thuốc,
+dẫn tới hậu quả người bệnh dễ uống sai liều gây rủi ro sức khỏe, quên lịch, hoặc hoang mang không hiểu rõ công dụng của các loại thuốc được kê.
+Bằng chứng chính: 
+- Trải nghiệm tự gõ đơn 3 thuốc mất 10-15 phút;
+- OCR thử nghiệm cho thấy tỉ lệ nhận diện tần suất tiếng Việt (như "sau ăn", "3 lần/ngày") bị sai lệch cần sửa tay;
+- Đánh giá trên CH Play của Medisafe/MyTherapy phàn nàn việc bắt buộc nhập tay quá phức tạp;
+- Quan sát người dùng phải Google từng tên biệt dược khó nhớ để tự tìm hiểu công dụng.
+
 ```
 
 ---
@@ -94,27 +98,37 @@ và xử lý OCR/parse sai bằng bắt buộc user xác nhận trước khi Lư
 ## 7. Failure mode nguy hiểm nhất
 
 ```text
-Nếu user upload đơn và OCR/parse sai tần suất hoặc liều (vd. 3 lần → 1 lần),
-AI có thể tạo lịch nhắc sai,
-hậu quả là uống thiếu liều hoặc quá liều.
-Prototype xử lý bằng: (1) review screen bắt buộc, (2) highlight low-confidence,
-(3) rule cảnh báo nếu frequency không khớp pattern thường gặp, (4) không Lưu khi còn field đỏ.
-Owner test: Nguyễn Hoàng Minh — case đơn mẫu cố ý sai tần suất.
+Nếu user upload ảnh đơn thuốc có chất lượng kém (mờ, nghiêng, thiếu sáng) dẫn đến AI OCR/parse sai tần suất uống hoặc liều dùng (ví dụ: "uống 3 lần/ngày" thành "1 lần/ngày", hoặc "2 viên" thành "1 viên"),
+AI có thể tự động tạo lịch nhắc uống thuốc sai lệch,
+hậu quả là người bệnh uống thiếu liều (giảm hiệu quả điều trị) hoặc quá liều (rủi ro ngộ độc hoặc tác dụng phụ nguy hiểm).
+Prototype sẽ xử lý bằng cơ chế phòng hộ nhiều lớp:
+1. [UX Split-Screen]: Màn hình Review bắt buộc hiển thị song song ảnh chụp gốc (được crop và phóng to vùng chữ tương ứng) ngay bên cạnh form kết quả để user dễ đối chiếu bằng mắt.
+2. [Confidence Guardrail]: Highlight đỏ các trường thông tin có độ tự tin (confidence score) thấp từ LLM, bắt buộc user phải chạm vào để xác nhận hoặc sửa thì mới kích hoạt nút "Lưu".
+3. [Clinical Rule Validation]: Kiểm tra chéo dữ liệu đầu ra với danh mục thuốc an toàn (nếu tần suất > 4 lần/ngày hoặc liều lượng vượt ngưỡng bình thường của thuốc đó, hệ thống sẽ hiển thị cảnh báo popup: "Liều lượng thuốc này có vẻ bất thường, vui lòng kiểm tra kỹ đơn gốc").
+4. [Hard Block]: Không cho phép lưu vào lịch nhắc nếu còn trường thông tin bị cảnh báo đỏ chưa được xác nhận hoặc sửa đổi.
+Owner test: **Hoàng Khương Duy** — chuẩn bị 1 đơn mẫu cố ý làm mờ chữ tần suất uống để kiểm thử xem hệ thống có kích hoạt cảnh báo đỏ và chặn lưu hay không.
 ```
 
 ---
 
 ## 8. Owner plan — Day 06
 
-| Thành viên | Việc | Artifact trong repo |
+**Nhóm:** _(điền tên nhóm nếu có)_  
+**Thành viên:** Nguyễn Hoàng Minh · Lương Quốc Dũng · Hoàng Khương Duy · Cù Tiến Nam
+
+Chia đều 4 phần — mỗi người ~25% scope, nộp artifact rõ trong repo.
+
+| Thành viên | Phụ trách chính | Artifact / deliverable |
 |---|---|---|
-| Nguyễn Hoàng Minh | Research / evidence / đơn mẫu | `evidence-pack-prescription.md`, `evidence/` |
-| _(tên)_ | SPEC | `thin-spec-prescription.md` |
-| _(tên)_ | Prototype | `prototype/` — upload, review, schedule, cards |
-| _(tên)_ | OCR + parse pipeline | API key env example; fallback `fixtures/sample-rx.json` |
-| _(tên)_ | Drug DB + cards | `prototype/data/drugs.json` (3–5 thuốc) |
-| Nguyễn Hoàng Minh | Test failure path | Script: sai `3 lần` → phải warn/block |
-| _(tên)_ | Demo | `demo-script.md` 3–5 phút |
+| **Nguyễn Hoàng Minh** | Backend · OCR + AI parse | `prototype/server/` (OpenAI Vision, VietOCR optional), `fixtures/`, `js/parse.js`, `js/api.js`, `.env.example` |
+| **Lương Quốc Dũng** | Frontend · UX prototype | `prototype/index.html`, `css/styles.css`, `js/app.js` — upload, review, lịch, thẻ thuốc; mobile polish |
+| **Hoàng Khương Duy** | Research · evidence · QA | `evidence-pack-prescription.md`, `evidence/` (ảnh đơn đã che PHI), phỏng vấn/review store, test failure path (preset risky + ảnh thật) |
+| **Cù Tiến Nam** | SPEC · nội dung thuốc · demo | `thin-spec-prescription.md`, `synthesis-decide-prescription.md`, `data/drugs.json`, `demo-script.md`, README nộp bài |
+
+**Phối hợp nhanh:**
+- Dũng + Minh: wire upload ảnh → `/api/parse-rx` → review screen
+- Nam + Duy: drug card copy khớp tên thuốc trên đơn mẫu thật
+- Cả nhóm: chạy `demo-script.md` 1 lần trước khi nộp
 
 ---
 
@@ -160,11 +174,11 @@ Owner test: Nguyễn Hoàng Minh — case đơn mẫu cố ý sai tần suất.
 
 | File | Mô tả |
 |---|---|
-| `01-invidual-workshop/v-ai-app-teardown.md` | Individual (sáng) — analog, không phải build target |
+| `01-invidual-workshop/V-App-app-teardown.md` | Individual (sáng) — analog, không phải build target |
 | `02-group-spec/evidence-pack-prescription.md` | Evidence pack (track mới) |
 | `02-group-spec/synthesis-decide-prescription.md` | Synthesis |
 | `02-group-spec/thin-spec-prescription.md` | Thin SPEC (file này) |
-| `02-group-spec/*-v-ai.md` | **Archived** — track cũ V-AI handoff |
+| `02-group-spec/*-V-App.md` | **Archived** — track cũ V-App handoff |
 
 ---
 
