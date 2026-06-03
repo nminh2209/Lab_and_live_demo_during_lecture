@@ -1,5 +1,7 @@
 # Thin SPEC — V-App / V-AI (Cuối Day 05)
 
+> **ARCHIVED — track đã đổi.** Dùng file mới: [`thin-spec-prescription.md`](thin-spec-prescription.md)
+
 Bản cam kết đủ rõ để sáng Day 06 nhóm build ngay.
 
 ---
