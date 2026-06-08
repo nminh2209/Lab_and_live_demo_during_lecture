@@ -1,0 +1,460 @@
+{
+  "chunk_counts": {
+    "minh": 43,
+    "duy": 99,
+    "nam": 36,
+    "dung": 81,
+    "baseline_fixed": 35,
+    "baseline_sentence": 32
+  },
+  "totals": {
+    "minh": 10,
+    "duy": 10,
+    "nam": 10,
+    "dung": 10,
+    "baseline_fixed": 10,
+    "baseline_sentence": 10
+  },
+  "benchmarks": {
+    "q1": {
+      "minh": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.7012861814046119,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.701)",
+          "python_intro.txt (0.623)",
+          "python_intro.txt (0.559)"
+        ]
+      },
+      "duy": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.6958531222379634,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.696)",
+          "python_intro.txt (0.648)",
+          "python_intro.txt (0.585)"
+        ]
+      },
+      "nam": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.7012861814046119,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.701)",
+          "python_intro.txt (0.636)",
+          "python_intro.txt (0.604)"
+        ]
+      },
+      "dung": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.697166010338492,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.697)",
+          "python_intro.txt (0.651)",
+          "python_intro.txt (0.506)"
+        ]
+      },
+      "baseline_fixed": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.6935295169274696,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.694)",
+          "python_intro.txt (0.552)",
+          "python_intro.txt (0.516)"
+        ]
+      },
+      "baseline_sentence": {
+        "filter": null,
+        "top1_source": "python_intro.txt",
+        "top1_score": 0.7081428225919808,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "python_intro.txt (0.708)",
+          "python_intro.txt (0.563)",
+          "python_intro.txt (0.554)"
+        ]
+      }
+    },
+    "q2": {
+      "minh": {
+        "filter": null,
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.6915466926117233,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.692)",
+          "vector_store_notes.md (0.513)",
+          "vector_store_notes.md (0.459)"
+        ]
+      },
+      "duy": {
+        "filter": {
+          "department": "engineering"
+        },
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.7383065719534727,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.738)",
+          "vector_store_notes.md (0.706)",
+          "vector_store_notes.md (0.647)"
+        ]
+      },
+      "nam": {
+        "filter": {
+          "category": "technical"
+        },
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.7261888720094163,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.726)",
+          "vector_store_notes.md (0.490)",
+          "vector_store_notes.md (0.484)"
+        ]
+      },
+      "dung": {
+        "filter": null,
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.7261888720094163,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.726)",
+          "vector_store_notes.md (0.603)",
+          "vector_store_notes.md (0.588)"
+        ]
+      },
+      "baseline_fixed": {
+        "filter": null,
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.6918808936590537,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.692)",
+          "vector_store_notes.md (0.368)",
+          "vector_store_notes.md (0.347)"
+        ]
+      },
+      "baseline_sentence": {
+        "filter": null,
+        "top1_source": "vector_store_notes.md",
+        "top1_score": 0.704889239482668,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vector_store_notes.md (0.705)",
+          "vector_store_notes.md (0.510)",
+          "vector_store_notes.md (0.490)"
+        ]
+      }
+    },
+    "q3": {
+      "minh": {
+        "filter": null,
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.5438075427766194,
+        "top1_relevant": true,
+        "relevant_in_top3": 2,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.544)",
+          "rag_system_design.md (0.360)",
+          "python_intro.txt (0.324)"
+        ]
+      },
+      "duy": {
+        "filter": {
+          "department": "engineering"
+        },
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.6089673410160117,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.609)",
+          "rag_system_design.md (0.519)",
+          "rag_system_design.md (0.307)"
+        ]
+      },
+      "nam": {
+        "filter": {
+          "category": "technical"
+        },
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.6192829005449312,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.619)",
+          "rag_system_design.md (0.397)",
+          "rag_system_design.md (0.284)"
+        ]
+      },
+      "dung": {
+        "filter": null,
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.5378159271558616,
+        "top1_relevant": true,
+        "relevant_in_top3": 2,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.538)",
+          "rag_system_design.md (0.349)",
+          "python_intro.txt (0.324)"
+        ]
+      },
+      "baseline_fixed": {
+        "filter": null,
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.5634505095189013,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.563)",
+          "rag_system_design.md (0.314)",
+          "rag_system_design.md (0.311)"
+        ]
+      },
+      "baseline_sentence": {
+        "filter": null,
+        "top1_source": "rag_system_design.md",
+        "top1_score": 0.5142833606950887,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "rag_system_design.md (0.514)",
+          "rag_system_design.md (0.342)",
+          "rag_system_design.md (0.270)"
+        ]
+      }
+    },
+    "q4": {
+      "minh": {
+        "filter": null,
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.47310055735880496,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.473)",
+          "customer_support_playbook.txt (0.405)",
+          "customer_support_playbook.txt (0.402)"
+        ]
+      },
+      "duy": {
+        "filter": {
+          "department": "support"
+        },
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.49314239699072004,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.493)",
+          "customer_support_playbook.txt (0.388)",
+          "customer_support_playbook.txt (0.369)"
+        ]
+      },
+      "nam": {
+        "filter": null,
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.47310055735880496,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.473)",
+          "customer_support_playbook.txt (0.405)",
+          "customer_support_playbook.txt (0.402)"
+        ]
+      },
+      "dung": {
+        "filter": null,
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.4505389141962155,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.451)",
+          "customer_support_playbook.txt (0.406)",
+          "customer_support_playbook.txt (0.376)"
+        ]
+      },
+      "baseline_fixed": {
+        "filter": null,
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.48321796835648456,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.483)",
+          "customer_support_playbook.txt (0.444)",
+          "customer_support_playbook.txt (0.410)"
+        ]
+      },
+      "baseline_sentence": {
+        "filter": null,
+        "top1_source": "customer_support_playbook.txt",
+        "top1_score": 0.4778144188259148,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "customer_support_playbook.txt (0.478)",
+          "customer_support_playbook.txt (0.405)",
+          "customer_support_playbook.txt (0.377)"
+        ]
+      }
+    },
+    "q5": {
+      "minh": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.5872923843161288,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.587)",
+          "vi_retrieval_notes.md (0.461)",
+          "vi_retrieval_notes.md (0.458)"
+        ]
+      },
+      "duy": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.49646991115169214,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.496)",
+          "vi_retrieval_notes.md (0.477)",
+          "vi_retrieval_notes.md (0.466)"
+        ]
+      },
+      "nam": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.6140724213910289,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.614)",
+          "vi_retrieval_notes.md (0.461)",
+          "vi_retrieval_notes.md (0.458)"
+        ]
+      },
+      "dung": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.4898743372672243,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.490)",
+          "vi_retrieval_notes.md (0.476)",
+          "vi_retrieval_notes.md (0.458)"
+        ]
+      },
+      "baseline_fixed": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.48820961271428587,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.488)",
+          "vi_retrieval_notes.md (0.480)",
+          "vi_retrieval_notes.md (0.463)"
+        ]
+      },
+      "baseline_sentence": {
+        "filter": {
+          "language": "vi"
+        },
+        "top1_source": "vi_retrieval_notes.md",
+        "top1_score": 0.5210234109497378,
+        "top1_relevant": true,
+        "relevant_in_top3": 3,
+        "rubric_pts": 2,
+        "top3": [
+          "vi_retrieval_notes.md (0.521)",
+          "vi_retrieval_notes.md (0.483)",
+          "vi_retrieval_notes.md (0.418)"
+        ]
+      }
+    }
+  },
+  "strategies": {
+    "minh": "Recursive character splitting",
+    "duy": "Parent/child chunking",
+    "nam": "Document-structure chunking",
+    "dung": "Semantic chunking",
+    "baseline_fixed": "Fixed-size chunking",
+    "baseline_sentence": "Sentence chunking"
+  },
+  "team_keys": [
+    "minh",
+    "duy",
+    "nam",
+    "dung"
+  ],
+  "baseline_keys": [
+    "baseline_fixed",
+    "baseline_sentence"
+  ]
+}
