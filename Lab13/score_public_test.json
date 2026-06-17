@@ -1,0 +1,21 @@
+{
+  "team": "Nguyen Hoang Minh",
+  "phase": "public",
+  "headline": 42.12,
+  "sub": {
+    "correct": 0.0,
+    "quality": 0.0,
+    "error": 0.0,
+    "latency": 1.0,
+    "cost": 1.0,
+    "drift": 1.0,
+    "prompt": 0.0
+  },
+  "diag_f1": 0.824,
+  "n": 0,
+  "n_correct": 0,
+  "judge_mode": "offline",
+  "weights_hash": "e81a8ed58d93",
+  "key_hash": "9a800fa6968d",
+  "sig": "7e542e7c7d382aaf3a3d269909bb4a8ddacabaec58ac189f8993e9354ba69384"
+}

@@ -1,0 +1,86 @@
+{
+  "team": "Nguyen Hoang Minh",
+  "schema_version": 1,
+  "findings": [
+    {
+      "fault_class": "infinite_loop",
+      "evidence": {
+        "metric": "status_max_steps_rate",
+        "observed": "BEFORE: 4/20 max_steps (20%), prac-003 check_stock×12. AFTER fix: 0/20 max_steps, tools_max=3",
+        "trace_ids": ["prac-003", "prac-012"]
+      },
+      "root_cause": "loop_guard=false and tool_budget=0 on shipped config.",
+      "suggested_fix": "Applied: loop_guard=true, tool_budget=4, max_steps=10 in config.json"
+    },
+    {
+      "fault_class": "error_spike",
+      "evidence": {
+        "metric": "non_ok_status_rate",
+        "observed": "BEFORE: 20% max_steps. AFTER: 20/20 status=ok",
+        "trace_ids": ["prac-003", "prac-012", "prac-014", "prac-015"]
+      },
+      "root_cause": "tool_error_rate=0.18 with retry disabled; loops exhausted steps.",
+      "suggested_fix": "Applied: tool_error_rate=0.05, retry.enabled=true in config.json"
+    },
+    {
+      "fault_class": "latency_spike",
+      "evidence": {
+        "metric": "latency_p95_ms",
+        "observed": "BEFORE: p95=25627ms. AFTER: p50=7627ms p95=16878ms (AGENT_CALL, n=20). Note: max=92234ms from self_consistency=2 on one request",
+        "trace_ids": ["prac-003", "prac-012"]
+      },
+      "root_cause": "Tool loops and verbose_system on baseline config.",
+      "suggested_fix": "Applied: verbose_system=false, loop_guard, context_size=6; wrapper tracing in traces/"
+    },
+    {
+      "fault_class": "cost_blowup",
+      "evidence": {
+        "metric": "cost_usd_total",
+        "observed": "AFTER run: $1.003686 for 20 requests, 869746 sealed tokens; tools_avg=2.20 (was 4.0 baseline)",
+        "trace_ids": ["prac-003"]
+      },
+      "root_cause": "premium tier + verbose prompt + tool loops on baseline.",
+      "suggested_fix": "Applied: model_price_tier=standard, verbose_system=false, cache=true, tool_budget=4"
+    },
+    {
+      "fault_class": "pii_leak",
+      "evidence": {
+        "metric": "pii_in_answer_count",
+        "observed": "BEFORE: 2/20 raw phones (prac-010, prac-013). AFTER: sealed still flags 2/20 (prac-010, prac-013) while wrapper logs show no direct pii_in_answer",
+        "trace_ids": ["prac-010", "prac-013"]
+      },
+      "root_cause": "redact_pii=false and prompt echoed contact info.",
+      "suggested_fix": "Applied: redact_pii=true, prompt PII rule, wrapper _sanitize_answer()"
+    },
+    {
+      "fault_class": "tool_overuse",
+      "evidence": {
+        "metric": "tools_per_request",
+        "observed": "BEFORE: avg=4.0 max=13. AFTER: avg=2.15 max=3 (sealed)",
+        "trace_ids": ["prac-012", "prac-003"]
+      },
+      "root_cause": "tool_budget=0 and temperature=1.6.",
+      "suggested_fix": "Applied: tool_budget=4, temperature=0.2, prompt tool-economy rule"
+    },
+    {
+      "fault_class": "tool_failure",
+      "evidence": {
+        "metric": "tool_error_rate",
+        "observed": "BEFORE: prac-005/006/017 failed on diacritic/shipping. AFTER: prac-005/006/017 status=ok with totals",
+        "trace_ids": ["prac-005", "prac-006", "prac-017"]
+      },
+      "root_cause": "normalize_unicode=false on baseline.",
+      "suggested_fix": "Applied: normalize_unicode=true, retry enabled, note sanitization in wrapper"
+    },
+    {
+      "fault_class": "prompt_injection",
+      "evidence": {
+        "metric": "injection_total_mismatch",
+        "observed": "Private/public questions embed fake totals in GHI CHU/system notes; undefended agent obeys injected prices",
+        "trace_ids": ["pub-010", "pub-024"]
+      },
+      "root_cause": "Shipped prompt treats order notes as instructions; no input sanitization.",
+      "suggested_fix": "Applied: strip GHI CHU/system/admin tails in wrapper, prompt injection rule, trace-based total guardrails"
+    }
+  ]
+}

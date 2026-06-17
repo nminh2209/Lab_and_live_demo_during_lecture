@@ -1,0 +1,218 @@
+[
+  {
+    "id": "summary_0",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Abstract Large language models (LLMs) increasingly support reasoning, question answering, decision support, and retrieval-augmented knowledge work.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "authors_0",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Kushal Budha, Nikesh Lagun",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "date_0",
+    "question_type": "date",
+    "question": "When was the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-06-02",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "summary_1",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation'?",
+    "ground_truth": "Large language models have demonstrated strong generative capability in question answering, dialogue, and other knowledge-intensive tasks.",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "authors_1",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation'?",
+    "ground_truth": "Haopeng Yang",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "date_1",
+    "question_type": "date",
+    "question": "When was the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' published?",
+    "ground_truth": "2026-06-01",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "summary_2",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation'?",
+    "ground_truth": "Knowledge graphs (KGs) hold facts about the world as connected triples, and they have become a backbone for any system that needs to reason over linked information.",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "authors_2",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation'?",
+    "ground_truth": "Sohail Khan",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "date_2",
+    "question_type": "date",
+    "question": "When was the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-31",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "summary_3",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation'?",
+    "ground_truth": "An AI-powered smart advisory system for Precision Agriculture leveraging Large Language Models and Retrieval-Augmented Generation is presented in this paper.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "authors_3",
+    "question_type": "authors",
+    "question": "Who authored the paper 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation'?",
+    "ground_truth": "Jahnavi Bellapukonda",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "date_3",
+    "question_type": "date",
+    "question": "When was the paper 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-20",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "summary_4",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'Industrial Multi-AI Agent Collaborative System based on Large-Small Model Fusion and Retrieval-Augmented Generation'?",
+    "ground_truth": "With the rapid advancement of intelligent manufacturing, industrial systems generate vast amounts of unstructured data, yet face significant challenges in data utilization, knowledge retrieval accuracy, decision-making efficiency, and human-machine collaboration.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6756498"
+    ]
+  },
+  {
+    "id": "authors_4",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Industrial Multi-AI Agent Collaborative System based on Large-Small Model Fusion and Retrieval-Augmented Generation'?",
+    "ground_truth": "Xiao Lai, Han Wang, Min Liu, Li Bai",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6756498"
+    ]
+  },
+  {
+    "id": "date_4",
+    "question_type": "date",
+    "question": "When was the paper 'Industrial Multi-AI Agent Collaborative System based on Large-Small Model Fusion and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-13",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6756498"
+    ]
+  },
+  {
+    "id": "summary_5",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents'?",
+    "ground_truth": "&lt;div&gt; This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&amp;nbsp;&lt;span&gt;While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6713979"
+    ]
+  },
+  {
+    "id": "authors_5",
+    "question_type": "authors",
+    "question": "Who authored the paper 'A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents'?",
+    "ground_truth": "Zihan Chen, Lei Zheng, Di Zhu",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6713979"
+    ]
+  },
+  {
+    "id": "date_5",
+    "question_type": "date",
+    "question": "When was the paper 'A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents' published?",
+    "ground_truth": "2026-05-12",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6713979"
+    ]
+  },
+  {
+    "id": "summary_6",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery'?",
+    "ground_truth": "Transportation infrastructure agencies rely on large, frequently updated specification documents to support materials acceptance, contract administration, and construction compliance.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "authors_6",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery'?",
+    "ground_truth": "Dan Liu, Hao Wang, Hao Frank Yang, Maria Santo, Bin Hu, Giri Venkiteela",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "date_6",
+    "question_type": "date",
+    "question": "When was the paper 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery' published?",
+    "ground_truth": "2026-05-10",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "summary_7",
+    "question_type": "summary",
+    "question": "What is the main finding of the paper titled '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine'?",
+    "ground_truth": "Abstract Introduction While Large Language Models (LLMs) offer generative capabilities, generic models often lack domain-specific grounding, leading to hallucinations in high-stakes contexts.",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "authors_7",
+    "question_type": "authors",
+    "question": "Who authored the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine'?",
+    "ground_truth": "Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "date_7",
+    "question_type": "date",
+    "question": "When was the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' published?",
+    "ground_truth": "2026-05-08",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  }
+]

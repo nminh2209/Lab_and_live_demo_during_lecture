@@ -1,0 +1,53 @@
+{
+  "phase": "practice",
+  "n": 1,
+  "users": null,
+  "turns": null,
+  "config_used": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "model_price_tier": "standard",
+    "max_steps": 10,
+    "loop_guard": true,
+    "temperature": 0.2,
+    "context_size": 6,
+    "verbose_system": false,
+    "retry": {
+      "enabled": true,
+      "max_attempts": 2,
+      "backoff_ms": 200
+    },
+    "cache": {
+      "enabled": true
+    },
+    "normalize_unicode": true,
+    "redact_pii": true,
+    "session_drift_rate": 0.02,
+    "context_reset_every": 8,
+    "tool_error_rate": 0.05,
+    "catalog_override": {},
+    "planner": false,
+    "verify": true,
+    "self_consistency": 2,
+    "tool_budget": 4,
+    "prompt_chars": 1353,
+    "custom_prompt": true
+  },
+  "results": [
+    {
+      "qid": "verify-key",
+      "question": "Mua 1 iPhone giao Ha Noi, tong bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "verify",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.107783Z"
+    }
+  ],
+  "sealed": {
+    "alg": "HMAC-SHA256",
+    "note": "binary-measured metrics for scoring; build your own observability in wrapper.py",
+    "data": "W3siZXJyb3IiOiAiRXJyb3IgY29kZTogNDAxIC0geyd0eXBlJzogJ2Vycm9yJywgJ2Vycm9yJzogeyd0eXBlJzogJ01vZGVsRXJyb3InLCAnbWVzc2FnZSc6ICdNb2RlbCBncHQtNG8tbWluaSBpcyBub3Qgc3VwcG9ydGVkJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19XQ==",
+    "sig": "c06b747f8187f02e36c7a96721f66b4d4e338c229095633a5ad0c9b499591a81"
+  }
+}

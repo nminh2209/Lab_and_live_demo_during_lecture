@@ -1,0 +1,60 @@
+{
+  "question": "Mua 4 MacBook dung ma SALE15, ship Hai Phong, tong thanh toan bao nhieu?",
+  "result": {
+    "answer": "Tong cong: 119055000 VND",
+    "status": "ok",
+    "steps": 3,
+    "trace": [
+      {
+        "step": 1,
+        "action": "check_stock({'item_name': 'MacBook'})",
+        "tool": "check_stock",
+        "observation": {
+          "item": "macbook",
+          "found": true,
+          "in_stock": true,
+          "quantity": 4,
+          "unit_price_vnd": 35000000,
+          "weight_kg": 1.6
+        }
+      },
+      {
+        "step": 2,
+        "action": "get_discount({'coupon_code': 'SALE15'})",
+        "tool": "get_discount",
+        "observation": {
+          "code": "SALE15",
+          "valid": true,
+          "percent": 15
+        }
+      },
+      {
+        "step": 3,
+        "action": "calc_shipping({'weight_kg': 6.4, 'destination': 'Hai Phong'})",
+        "tool": "calc_shipping",
+        "observation": {
+          "destination": "hai phong",
+          "weight_kg": 6.4,
+          "cost_vnd": 55000
+        }
+      }
+    ],
+    "meta": {
+      "model": "deepseek-v4-flash",
+      "provider": "openai",
+      "latency_ms": 15369,
+      "usage": {
+        "prompt_tokens": 53484,
+        "completion_tokens": 1113,
+        "total_tokens": 54597
+      },
+      "session_id": "trace",
+      "turn_index": 0,
+      "tools_used": [
+        "check_stock",
+        "get_discount",
+        "calc_shipping"
+      ]
+    }
+  }
+}

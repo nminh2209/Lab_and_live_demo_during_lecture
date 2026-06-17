@@ -1,0 +1,9 @@
+[server]
+headless = false
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true

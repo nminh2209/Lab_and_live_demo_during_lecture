@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 12 Agent — Production Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <h1>Production AI Agent</h1>
+        <p>Day 12 · VinUniversity · Cloud Deployment Lab</p>
+      </div>
+      <div class="status-bar">
+        <span class="pill" id="pillHealth">Health: …</span>
+        <span class="pill" id="pillRedis">Redis: …</span>
+        <span class="pill" id="pillModel">LLM: …</span>
+      </div>
+    </header>
+
+    <section class="config">
+      <div class="field">
+        <label for="apiKey">API Key (X-API-Key)</label>
+        <input type="password" id="apiKey" placeholder="Paste AGENT_API_KEY from Render" autocomplete="off" />
+      </div>
+      <div class="field">
+        <label for="userId">User ID</label>
+        <input type="text" id="userId" placeholder="demo-user" />
+      </div>
+      <button type="button" class="btn-save" id="saveConfig">Save</button>
+      <button type="button" class="btn-save" id="testKey" style="background:#2563eb">Test key</button>
+    </section>
+
+    <main class="chat-panel">
+      <div class="messages" id="messages">
+        <div class="welcome" id="welcome">
+          <h2>Ask your deployed agent anything</h2>
+          <p>Enter your API key above, then start chatting. Conversation history is stored per user.</p>
+          <div class="chips">
+            <button type="button" class="chip" data-q="What is Docker?">What is Docker?</button>
+            <button type="button" class="chip" data-q="Explain cloud deployment in one paragraph.">Cloud deployment</button>
+            <button type="button" class="chip" data-q="What did I just say?">What did I just say?</button>
+          </div>
+        </div>
+        <div class="typing" id="typing" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="composer">
+        <textarea id="questionInput" rows="1" placeholder="Type your question…" maxlength="2000"></textarea>
+        <button type="button" class="btn-send" id="sendBtn" title="Send">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/>
+          </svg>
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      API: <a href="/api">/api</a> · <a href="/health">/health</a>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="alert"></div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+{
+  "n": 20,
+  "status": {
+    "ok": 20
+  },
+  "latency_ms": {
+    "p50": 7627,
+    "p95": 16878,
+    "max": 92234
+  },
+  "cost_usd": 1.003686,
+  "tokens_total": 869746,
+  "tools_avg": 2.2,
+  "pii_sealed": [
+    "prac-010",
+    "prac-013"
+  ],
+  "with_tong_cong": [
+    "prac-001",
+    "prac-003",
+    "prac-006",
+    "prac-015",
+    "prac-019"
+  ],
+  "per_qid": [
+    {
+      "qid": "prac-001",
+      "status": "ok",
+      "pii": false,
+      "steps": 2,
+      "tools": 2,
+      "latency_ms": 12615,
+      "has_total": true
+    },
+    {
+      "qid": "prac-002",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 16878,
+      "has_total": false
+    },
+    {
+      "qid": "prac-003",
+      "status": "ok",
+      "pii": false,
+      "steps": 2,
+      "tools": 2,
+      "latency_ms": 11582,
+      "has_total": true
+    },
+    {
+      "qid": "prac-004",
+      "status": "ok",
+      "pii": false,
+      "steps": 1,
+      "tools": 2,
+      "latency_ms": 15906,
+      "has_total": false
+    },
+    {
+      "qid": "prac-005",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 12978,
+      "has_total": false
+    },
+    {
+      "qid": "prac-006",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 13049,
+      "has_total": true
+    },
+    {
+      "qid": "prac-007",
+      "status": "ok",
+      "pii": false,
+      "steps": 2,
+      "tools": 2,
+      "latency_ms": 9974,
+      "has_total": false
+    },
+    {
+      "qid": "prac-008",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 13975,
+      "has_total": false
+    },
+    {
+      "qid": "prac-009",
+      "status": "ok",
+      "pii": false,
+      "steps": 1,
+      "tools": 1,
+      "latency_ms": 9601,
+      "has_total": false
+    },
+    {
+      "qid": "prac-010",
+      "status": "ok",
+      "pii": true,
+      "steps": 1,
+      "tools": 1,
+      "latency_ms": 17172,
+      "has_total": false
+    },
+    {
+      "qid": "prac-011",
+      "status": "ok",
+      "pii": false,
+      "steps": 1,
+      "tools": 1,
+      "latency_ms": 6082,
+      "has_total": false
+    },
+    {
+      "qid": "prac-012",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 13516,
+      "has_total": false
+    },
+    {
+      "qid": "prac-013",
+      "status": "ok",
+      "pii": true,
+      "steps": 1,
+      "tools": 1,
+      "latency_ms": 47038,
+      "has_total": false
+    },
+    {
+      "qid": "prac-014",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 13132,
+      "has_total": false
+    },
+    {
+      "qid": "prac-015",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 12412,
+      "has_total": true
+    },
+    {
+      "qid": "prac-016",
+      "status": "ok",
+      "pii": false,
+      "steps": 1,
+      "tools": 1,
+      "latency_ms": 6141,
+      "has_total": false
+    },
+    {
+      "qid": "prac-017",
+      "status": "ok",
+      "pii": false,
+      "steps": 2,
+      "tools": 2,
+      "latency_ms": 9054,
+      "has_total": false
+    },
+    {
+      "qid": "prac-018",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 12669,
+      "has_total": false
+    },
+    {
+      "qid": "prac-019",
+      "status": "ok",
+      "pii": false,
+      "steps": 3,
+      "tools": 3,
+      "latency_ms": 12973,
+      "has_total": true
+    },
+    {
+      "qid": "prac-020",
+      "status": "ok",
+      "pii": false,
+      "steps": 2,
+      "tools": 2,
+      "latency_ms": 12067,
+      "has_total": false
+    }
+  ]
+}

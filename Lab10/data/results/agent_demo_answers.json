@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is the main finding of the paper titled 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "agent_answer": "The main finding of the paper titled \"Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation\" is that it presents a comprehensive framework for evaluating the reliability of large language models (LLMs) across four key dimensions: reasoning faithfulness, factual grounding, evaluation validity, and evidence-use reliability in retrieval-augmented generation. The study synthesizes findings from 77 studies and highlights several critical insights, including:\n\n1. **Distinction of Concepts**: It differentiates between answer accuracy and reasoning faithfulness, truth and source-grounded support, benchmark performance and evaluation validity, as well as retrieved evidence and evidence actually used during generation.\n\n2. **Reliability Issues**: It identifies various reliability issues such as hallucination, attribution error, and sycophancy as separable risks to factuality.\n\n3. **Benchmark Sensitivity**: It notes that benchmark scores can be sensitive to factors like contamination, saturation, and protocol variation.\n\n4. **Retrieval-Augmented Generation**: The reliability of retrieval-augmented generation is influenced by factors such as retrieval relevance, source sufficiency, context utilization, and attribution.\n\nThe paper contributes an operational reliability-gap framework and proposes testable propositions for evaluating the interactions among these dimensions, ultimately supporting more reliable evaluation protocols for LLMs.",
+    "qa_answer": "Abstract Large language models (LLMs) increasingly support reasoning, question answering, decision support, and retrieval-augmented knowledge work."
+  },
+  {
+    "question": "Who authored the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "agent_answer": "The paper titled \"Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation\" was authored by Kushal Budha and Nikesh Lagun.",
+    "qa_answer": "Kushal Budha, Nikesh Lagun"
+  }
+]

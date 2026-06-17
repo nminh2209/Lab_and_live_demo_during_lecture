@@ -1,0 +1,12 @@
+﻿python :   File "<string>", line 9
+At C:\Users\ADMIN\AppData\Local\Temp\ps-script-9f9ae68b-c9f5-40d9-9f04-ccf18a90a5cd.ps1:107 char:49
++ Set-Location "e:\VinAI\Day-13-Lab-Observathon"; python -c "
++                                                 ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 9:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    print(r['qid'], 'pii='+str(s.get('pii')), 'steps='+str(s.get('steps')), 'tools='+str(len(s.get('tools_used',[]))), 
+'total='+str(has_total))
+                                                                                                                       
+                        ^
+IndentationError: unindent does not match any outer indentation level

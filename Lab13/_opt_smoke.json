@@ -1,0 +1,53 @@
+{
+  "phase": "practice",
+  "n": 1,
+  "users": null,
+  "turns": null,
+  "config_used": {
+    "provider": "openai",
+    "model": "deepseek-v4-flash",
+    "model_price_tier": "standard",
+    "max_steps": 8,
+    "loop_guard": true,
+    "temperature": 0.0,
+    "context_size": 2,
+    "verbose_system": false,
+    "retry": {
+      "enabled": true,
+      "max_attempts": 2,
+      "backoff_ms": 100
+    },
+    "cache": {
+      "enabled": true
+    },
+    "normalize_unicode": true,
+    "redact_pii": true,
+    "session_drift_rate": 0.01,
+    "context_reset_every": 4,
+    "tool_error_rate": 0.05,
+    "catalog_override": {},
+    "planner": false,
+    "verify": false,
+    "self_consistency": 1,
+    "tool_budget": 4,
+    "prompt_chars": 917,
+    "custom_prompt": true
+  },
+  "results": [
+    {
+      "qid": "trace-coupon",
+      "question": "Mua 4 MacBook dung ma SALE15, ship Hai Phong, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 119055000 VND",
+      "status": "ok",
+      "session": "trace",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.107783Z"
+    }
+  ],
+  "sealed": {
+    "alg": "HMAC-SHA256",
+    "note": "binary-measured metrics for scoring; build your own observability in wrapper.py",
+    "data": "W3siZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEzMTI0LCAibW9kZWwiOiAiZGVlcHNlZWstdjQtZmxhc2giLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDU2NywgInByb21wdF90b2tlbnMiOiA0MTAwLCAidG90YWxfdG9rZW5zIjogNDY2N319XQ==",
+    "sig": "62bd689ffeea92450de1278b6bc5248a3f7f22da1cc68ae308438bee0d6e6c74"
+  }
+}

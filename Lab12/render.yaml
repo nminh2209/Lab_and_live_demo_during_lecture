@@ -1,0 +1,44 @@
+# Render Blueprint — Day 12 production agent
+# Deploy: Render Dashboard → New → Blueprint → connect this repo
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: day12-agent
+    runtime: docker
+    rootDir: 06-lab-complete
+    region: singapore
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: APP_VERSION
+        value: "1.0.0"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "10"
+      - key: MONTHLY_BUDGET_USD
+        value: "10.0"
+      - key: AGENT_API_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: USE_MOCK_LLM
+        value: "false"
+      - key: LLM_FALLBACK_MOCK
+        value: "true"
+      - key: REDIS_URL
+        fromService:
+          name: day12-redis
+          type: redis
+          property: connectionString
+
+  - type: redis
+    name: day12-redis
+    region: singapore
+    plan: free
+    maxmemoryPolicy: allkeys-lru
+    ipAllowList: []

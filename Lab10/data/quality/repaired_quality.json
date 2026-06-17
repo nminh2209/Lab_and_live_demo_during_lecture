@@ -1,0 +1,42 @@
+{
+  "report_name": "repaired_quality",
+  "total_rows": 23,
+  "checks": [
+    {
+      "name": "row_count",
+      "passed": true,
+      "value": 23,
+      "threshold": 5
+    },
+    {
+      "name": "paper_id_not_null",
+      "passed": true,
+      "value": 23
+    },
+    {
+      "name": "paper_id_unique",
+      "passed": true,
+      "value": 23
+    },
+    {
+      "name": "title_not_null",
+      "passed": true,
+      "value": 23
+    },
+    {
+      "name": "summary_length",
+      "passed": true,
+      "value": 23,
+      "threshold": 20
+    },
+    {
+      "name": "freshness_threshold",
+      "passed": true,
+      "value": 23,
+      "threshold_days": 180
+    }
+  ],
+  "passed_checks": 6,
+  "failed_checks": 0,
+  "success": true
+}

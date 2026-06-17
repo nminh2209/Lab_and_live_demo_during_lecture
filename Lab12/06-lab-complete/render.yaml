@@ -1,0 +1,38 @@
+# Standalone Blueprint if this folder is the repo root.
+# For the full monorepo, use ../render.yaml at repository root.
+
+services:
+  - type: web
+    name: day12-agent
+    runtime: docker
+    region: singapore
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: APP_VERSION
+        value: "1.0.0"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "10"
+      - key: MONTHLY_BUDGET_USD
+        value: "10.0"
+      - key: AGENT_API_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          name: day12-redis
+          type: redis
+          property: connectionString
+
+  - type: redis
+    name: day12-redis
+    region: singapore
+    plan: free
+    maxmemoryPolicy: allkeys-lru
+    ipAllowList: []

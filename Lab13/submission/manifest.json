@@ -1,0 +1,5 @@
+{
+  "team": "Nguyen Hoang Minh",
+  "members": ["Nguyen Hoang Minh"],
+  "notes": "Solo submission. Practice run via Docker Linux binary (2026-06-15) on custom OpenAI-compatible endpoint with deepseek-v4-flash; default config model kept at gpt-4o-mini for cost control."
+}
