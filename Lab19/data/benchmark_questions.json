@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "question": "Ai là người đồng sáng lập OpenAI cùng Sam Altman?",
-    "ground_truth": "Elon Musk",
+    "question": "What EV market share did US states WITH ZEV regulations have, compared to states WITHOUT ZEV regulations?",
+    "ground_truth": "5% with ZEV vs 1.3% without",
     "type": "multi_hop",
-    "notes": "Cần liên kết OpenAI -> FOUNDED_BY"
+    "notes": "Graph links ZEV states -> 5% AND non-ZEV -> 1.3%; Flat may retrieve only one chunk"
   },
   {
     "id": 2,
-    "question": "Năm nào công ty tạo ra ChatGPT được thành lập?",
-    "ground_truth": "2015",
+    "question": "Who is the lead author of the BloombergNEF report that projects road transport oil demand will peak in 2027?",
+    "ground_truth": "Colin McKerracher",
     "type": "multi_hop",
-    "notes": "ChatGPT -> OpenAI -> FOUNDED_IN"
+    "notes": "BNEF -> EVO -> McKerracher + 2027 oil peak"
   },
   {
     "id": 3,
-    "question": "Ai là CEO của công ty đã mua DeepMind?",
-    "ground_truth": "Sundar Pichai",
+    "question": "Which company leads the US EV market with more than half of sales, and recently reported its lowest quarterly earnings in how many years?",
+    "ground_truth": "Tesla, two years",
     "type": "multi_hop",
-    "notes": "DeepMind -> acquired by Google -> CEO Sundar Pichai"
+    "notes": "Tesla market share + earnings chain"
   },
   {
     "id": 4,
-    "question": "DeepMind được thành lập ở đâu và bởi ai?",
-    "ground_truth": "London, bởi Demis Hassabis, Shane Legg và Mustafa Suleyman (2010)",
-    "type": "single_hop",
-    "notes": "Thông tin trực tiếp về DeepMind"
+    "question": "What organization published the September 2021 study on electric vehicle market growth across US cities?",
+    "ground_truth": "ICCT",
+    "type": "multi_hop",
+    "notes": "ICCT -> study -> September 2021"
   },
   {
     "id": 5,
-    "question": "Công ty nào đã đầu tư hơn 10 tỷ USD vào OpenAI?",
-    "ground_truth": "Microsoft",
-    "type": "single_hop",
-    "notes": "Quan hệ INVESTED_IN"
+    "question": "Which three automakers were targeted by the UAW strike related to EV transition?",
+    "ground_truth": "GM, Ford, and Stellantis",
+    "type": "multi_hop",
+    "notes": "UAW -> STRIKE_AGAINST -> 3 companies"
   },
   {
     "id": 6,
-    "question": "Ai là CEO của công ty sở hữu GitHub?",
-    "ground_truth": "Satya Nadella",
+    "question": "Who is the VP of Electric Vehicle Practice at the firm that reported 29.2% of shoppers were very likely to consider an EV?",
+    "ground_truth": "Elizabeth Krear at J.D. Power",
     "type": "multi_hop",
-    "notes": "GitHub -> Microsoft -> CEO"
+    "notes": "J.D. Power -> 29.2% -> Elizabeth Krear"
   },
   {
     "id": 7,
-    "question": "Năm nào Instagram được thành lập và bởi ai đã mua lại?",
-    "ground_truth": "2010, được Meta (Facebook) mua năm 2012",
+    "question": "How many public chargers per million population did the top 10 US metro areas average, and how many workplace chargers?",
+    "ground_truth": "935 public and 430 workplace per million",
     "type": "multi_hop",
-    "notes": "Instagram founder + Meta acquisition"
+    "notes": "ICCT two related metrics"
   },
   {
     "id": 8,
-    "question": "Elon Musk đã sáng lập những công ty công nghệ nào?",
-    "ground_truth": "OpenAI, Tesla, SpaceX (và mua Twitter/X)",
+    "question": "What is the charging infrastructure market size to 2050 in BNEF's Economic Transition Scenario, and when does road transport oil demand peak?",
+    "ground_truth": "$242 billion and 2027",
     "type": "multi_hop",
-    "notes": "Nhiều quan hệ FOUNDED_BY từ Elon Musk"
+    "notes": "BNEF two facts from same report"
   },
   {
     "id": 9,
-    "question": "Ai thay thế Steve Jobs làm CEO của Apple?",
-    "ground_truth": "Tim Cook (2011)",
+    "question": "How much oil do EVs displace daily globally, and which country dominates both EV sales and battery manufacturing?",
+    "ground_truth": "1.7 million barrels per day; China",
     "type": "multi_hop",
-    "notes": "Apple -> CEO succession"
+    "notes": "BNEF oil displacement + China dominance"
   },
   {
     "id": 10,
-    "question": "Công ty nào tạo ra ngôn ngữ Java và bị Oracle mua lại?",
-    "ground_truth": "Sun Microsystems (2010)",
+    "question": "What year did GM announce phasing out internal combustion engines, and which company delayed billions in EV investment?",
+    "ground_truth": "GM target 2035; Ford delayed EV investment",
     "type": "multi_hop",
-    "notes": "Java -> Sun -> Oracle acquisition"
+    "notes": "GM + Ford chain"
   },
   {
     "id": 11,
-    "question": "Jeff Bezos rời vị trí CEO Amazon năm nào và ai kế nhiệm?",
-    "ground_truth": "2021, Andy Jassy",
-    "type": "multi_hop",
-    "notes": "Amazon leadership transition"
+    "question": "What was the electric share of new US vehicle sales in 2020?",
+    "ground_truth": "2.4%",
+    "type": "single_hop",
+    "notes": "ICCT"
   },
   {
     "id": 12,
-    "question": "WhatsApp được mua với giá bao nhiêu và bởi công ty nào?",
-    "ground_truth": "19 tỷ USD bởi Meta (Facebook) năm 2014",
-    "type": "multi_hop",
-    "notes": "WhatsApp acquisition chain"
+    "question": "How many EV chargers does the Biden administration aim to deploy by 2030?",
+    "ground_truth": "500,000",
+    "type": "single_hop",
+    "notes": "Biden plan"
   },
   {
     "id": 13,
-    "question": "Ai là CEO của NVIDIA và công ty này thành lập năm nào?",
-    "ground_truth": "Jensen Huang, thành lập 1993",
+    "question": "What was the US EV sales growth rate in the first half of 2023?",
+    "ground_truth": "51%",
     "type": "single_hop",
-    "notes": "NVIDIA facts"
+    "notes": "Motor Intelligence"
   },
   {
     "id": 14,
-    "question": "Larry Page và Sergey Brin đã tạo ra thuật toán gì?",
-    "ground_truth": "PageRank",
+    "question": "What is the federal US tax credit for new EV purchases?",
+    "ground_truth": "$7,500",
     "type": "single_hop",
-    "notes": "Google founders contribution"
+    "notes": "BBC"
   },
   {
     "id": 15,
-    "question": "Công ty mẹ của DeepMind có trụ sở chính ở đâu?",
-    "ground_truth": "Mountain View, California (Google/Alphabet)",
-    "type": "multi_hop",
-    "notes": "DeepMind -> Google -> HQ location"
+    "question": "What fraction of public charging attempts fail according to J.D. Power?",
+    "ground_truth": "one in five",
+    "type": "single_hop",
+    "notes": "charging reliability"
   },
   {
     "id": 16,
-    "question": "Slack được thành lập bởi ai và bị công ty nào mua lại?",
-    "ground_truth": "Stewart Butterfield (2013), mua bởi Salesforce (2021)",
-    "type": "multi_hop",
-    "notes": "Slack -> Salesforce"
+    "question": "What was approximate annual US EV sales from 2018 to 2020?",
+    "ground_truth": "more than 315,000",
+    "type": "single_hop",
+    "notes": "ICCT"
   },
   {
     "id": 17,
-    "question": "Elon Musk mua Twitter với giá bao nhiêu và đổi tên thành gì?",
-    "ground_truth": "44 tỷ USD, đổi tên thành X (2023)",
+    "question": "By 2026 what percentage of the US new vehicle market will have a viable EV substitute per J.D. Power?",
+    "ground_truth": "75%",
     "type": "multi_hop",
-    "notes": "Twitter acquisition by Musk"
+    "notes": "J.D. Power projection"
   },
   {
     "id": 18,
-    "question": "Ai là đồng sáng lập Microsoft cùng Bill Gates?",
-    "ground_truth": "Paul Allen",
-    "type": "single_hop",
-    "notes": "Microsoft founders"
+    "question": "States with ZEV regulations were responsible for what fraction of 2020 US EV sales?",
+    "ground_truth": "about two-thirds",
+    "type": "multi_hop",
+    "notes": "ZEV states -> sales share"
   },
   {
     "id": 19,
-    "question": "Công ty nào phát triển AlphaGo và thuộc sở hữu của ai?",
-    "ground_truth": "DeepMind phát triển AlphaGo, thuộc Google",
+    "question": "How many electric models did states with ZEV regulations typically have compared to states without?",
+    "ground_truth": "at least 13 more electric models",
     "type": "multi_hop",
-    "notes": "AlphaGo -> DeepMind -> Google"
+    "notes": "ZEV states vs non-ZEV model availability"
   },
   {
     "id": 20,
-    "question": "Mark Zuckerberg sáng lập Facebook tại đâu và đổi tên công ty thành gì?",
-    "ground_truth": "Harvard University (2004), đổi tên thành Meta (2021)",
+    "question": "What combined incentive range did top US metro areas offer for EV purchases?",
+    "ground_truth": "$1,500 to more than $5,500",
     "type": "multi_hop",
-    "notes": "Meta/Facebook history"
+    "notes": "ICCT metro incentives"
   }
 ]

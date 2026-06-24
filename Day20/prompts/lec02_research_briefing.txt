@@ -1,0 +1,28 @@
+You are helping a PhD student prepare a research briefing on the topic:
+
+"Do multi-agent LLM systems actually outperform single-agent systems on complex tasks?"
+
+Your task is not just to summarize the topic. You must produce a structured research briefing that:
+1. Defines the main claim precisely
+2. Breaks the literature into major positions or schools of thought
+3. Identifies arguments supporting the claim
+4. Identifies arguments challenging the claim
+5. Explains where empirical evidence is weak, incomplete, or confounded
+6. Distinguishes between true multi-agent gains and gains caused by other factors such as more tokens, more prompt engineering, or repeated self-reflection
+7. Proposes 3 concrete experiments that could better resolve the debate
+8. Ends with a balanced final judgment
+
+Constraints:
+- Do not write a generic overview
+- Explicitly discuss what kinds of evidence would count as convincing
+- The final judgment must include uncertainty and unresolved issues
+- Organize the answer so it could be used as speaking notes for a research group meeting
+
+Output format:
+- Core question
+- Main positions
+- Evidence for
+- Evidence against
+- Methodological concerns
+- Proposed experiments
+- Final judgment

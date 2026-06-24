@@ -1,0 +1,38 @@
+# Lecture prompts from README-lec.md — map each to a pipeline entry point.
+#
+# Usage:
+#   python -m multi_agent_research_lab.cli multi-agent --query "$(cat prompts/lec02_research_briefing.txt)"
+#   python -m multi_agent_research_lab.cli benchmark --query-file prompts/lec03_experiment_design.txt
+
+prompts:
+  lec01_benchmark_design:
+    id: 1
+    title: ResearchAgentBench Benchmark Design
+    pipeline: evaluation/benchmark.py   # meta: informs benchmark suite design
+    recommended_mode: multi-agent
+    output: reports/lec01_benchmark_design.md
+
+  lec02_research_briefing:
+    id: 2
+    title: Multi-Agent LLM Research Briefing
+    pipeline: graph/workflow.py        # researcher → analyst → writer
+    recommended_mode: multi-agent
+    output: reports/lec02_research_briefing.md
+
+  lec03_experiment_design:
+    id: 3
+    title: Single-Call vs Multi-Agent Experiment
+    pipeline: cli.py benchmark          # direct use of existing benchmark
+    recommended_mode: benchmark
+    output: reports/lec03_experiment_design.md
+
+  lec04_survey_blueprint:
+    id: 4
+    title: Survey Paper Blueprint
+    pipeline: agents/writer.py         # long structured outline deliverable
+    recommended_mode: multi-agent
+    output: reports/lec04_survey_blueprint.md
+
+benchmark_suite:
+  - lec02_research_briefing
+  - lec03_experiment_design

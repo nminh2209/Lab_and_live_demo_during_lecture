@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+
+# Regenerated locally by `cli benchmark` / Streamlit (optional cache)
+reports/last_benchmark.json

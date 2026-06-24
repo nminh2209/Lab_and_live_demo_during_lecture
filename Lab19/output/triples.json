@@ -1,902 +1,4052 @@
 [
   {
-    "subject": "OpenAI",
-    "relation": "FOUNDED_BY",
-    "object": "Sam Altman"
+    "subject": "US electric vehicle market",
+    "relation": "GROWTH_RATE",
+    "object": "from a few thousand vehicles in 2010 to more than 315,000 vehicles sold annually from 2018 to 2020"
   },
   {
-    "subject": "OpenAI",
-    "relation": "FOUNDED_BY",
-    "object": "Elon Musk"
+    "subject": "2020",
+    "relation": "ELECTRIC_SHARE_OF_NEW_VEHICLE_SALES",
+    "object": "2.4%"
   },
   {
-    "subject": "OpenAI",
-    "relation": "FOUNDED_IN",
-    "object": "2015"
+    "subject": "2019",
+    "relation": "ELECTRIC_SHARE_OF_NEW_VEHICLE_SALES",
+    "object": "2%"
   },
   {
-    "subject": "OpenAI",
-    "relation": "LOCATED_IN",
-    "object": "San Francisco, California"
+    "subject": "States with zero-emission vehicle (ZEV) regulations",
+    "relation": "NEW_ELECTRIC_VEHICLE_SHARE",
+    "object": "5%"
   },
   {
-    "subject": "Sam Altman",
-    "relation": "CEO_OF",
-    "object": "OpenAI"
+    "subject": "States with zero-emission vehicle (ZEV) regulations",
+    "relation": "ELECTRIC_MODELS_AVAILABLE",
+    "object": "at least 13 more electric models"
   },
   {
-    "subject": "OpenAI",
-    "relation": "DEVELOPED",
-    "object": "ChatGPT"
+    "subject": "States with zero-emission vehicle regulations",
+    "relation": "NEW_ELECTRIC_VEHICLE_SHARE",
+    "object": "5%"
   },
   {
-    "subject": "OpenAI",
-    "relation": "DEVELOPED",
-    "object": "GPT-4"
+    "subject": "States without zero-emission vehicle regulations",
+    "relation": "AVERAGE_ELECTRIC_VEHICLE_SHARE",
+    "object": "1.3%"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "LEFT_BOARD_OF",
-    "object": "OpenAI"
+    "subject": "States with ZEV regulations",
+    "relation": "RESPONSIBLE_FOR_SALES",
+    "object": "two-thirds of 2020 U.S. electric vehicle sales"
   },
   {
-    "subject": "OpenAI",
-    "relation": "FOUNDED_IN",
-    "object": "2018"
+    "subject": "States with ZEV regulations",
+    "relation": "RESPONSIBLE_FOR_SALES",
+    "object": "less than one-third of overall light-duty vehicle sales"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "CEO_OF",
-    "object": "Tesla"
+    "subject": "Metropolitan areas with the greatest electric vehicle uptake in 2020",
+    "relation": "ACTIONS_PROMOTED",
+    "object": "31 to 44 actions"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "CEO_OF",
-    "object": "SpaceX"
+    "subject": "Top 11 metropolitan areas with the highest uptake",
+    "relation": "CONSUMER_INCENTIVES",
+    "object": "substantial"
+  },
+  {
+    "subject": "top 11 metropolitan areas",
+    "relation": "CONSUMER_INCENTIVES_RANGE",
+    "object": "$1,500 to more than $5,500"
+  },
+  {
+    "subject": "200 most populous metropolitan areas",
+    "relation": "AVERAGE_ELECTRIC_SHARE",
+    "object": "10%"
+  },
+  {
+    "subject": "ten areas with the highest uptake",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "935"
+  },
+  {
+    "subject": "U.S. population",
+    "relation": "PUBLIC_CHARGING_AVAILABILITY",
+    "object": "20%"
+  },
+  {
+    "subject": "Electric vehicle sales in the U.S.",
+    "relation": "SALES_VOLUME",
+    "object": "268,909"
+  },
+  {
+    "subject": "EV share of total new-vehicle sales in Q1 2024",
+    "relation": "MARKET_SHARE",
+    "object": "7.3%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "GROWTH_RATE",
+    "object": "2.6%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "DECREASE_COMPARED_TO_Q4_2023",
+    "object": "15.2%"
+  },
+  {
+    "subject": "Q1 2023",
+    "relation": "GROWTH_RATE_YEAR_OVER_YEAR",
+    "object": "46.4%"
+  },
+  {
+    "subject": "Q1 2023",
+    "relation": "GROWTH_RATE_QUARTER_OVER_QUARTER",
+    "object": "15.5%"
+  },
+  {
+    "subject": "Q1 2022",
+    "relation": "GROWTH_RATE_YEAR_OVER_YEAR",
+    "object": "81.2%"
+  },
+  {
+    "subject": "Q1 2022",
+    "relation": "GROWTH_RATE_QUARTER_OVER_QUARTER",
+    "object": "20.4%"
+  },
+  {
+    "subject": "Q2 2020",
+    "relation": "FIRST_QUARTER_OVER_QUARTER_DOWNTURN",
+    "object": "TRUE"
   },
   {
     "subject": "Tesla",
-    "relation": "FOUNDED_BY",
-    "object": "Elon Musk"
+    "relation": "MARKET_SHARE",
+    "object": "51%"
+  },
+  {
+    "subject": "Electric vehicle sales in the U.S.",
+    "relation": "DECLINE_PERCENTAGE",
+    "object": "2%"
+  },
+  {
+    "subject": "Electric vehicle sales in the U.S.",
+    "relation": "YEAR_OVER_YEAR_INCREASE",
+    "object": "20.4%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "FIRST_QUARTER_OVER_QUARTER_DOWNTURN",
+    "object": "since Q2 2020"
+  },
+  {
+    "subject": "Cox Automotive",
+    "relation": "DIRECTOR_OF",
+    "object": "Stephanie Valdez Streaty"
+  },
+  {
+    "subject": "2024",
+    "relation": "NICKNAME",
+    "object": "the Year of More"
+  },
+  {
+    "subject": "Cox Automotive",
+    "relation": "EXPECTED_SLOWDOWN",
+    "object": "EV sales growth"
+  },
+  {
+    "subject": "EV sales growth",
+    "relation": "TYPICAL_SLOWDOWN",
+    "object": "as volume increases"
   },
   {
     "subject": "Tesla",
-    "relation": "FOUNDED_BY",
-    "object": "Martin Eberhard"
+    "relation": "SALES_IMPACT",
+    "object": "overall market dynamics"
+  },
+  {
+    "subject": "A few brands",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "over 50%"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "AVERAGE_TRANSACTION_PRICE",
+    "object": "$55,167"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "DECREASE_PERCENTAGE",
+    "object": "9.0%"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "DECREASE_PERCENTAGE_QOQ",
+    "object": "3.8%"
   },
   {
     "subject": "Tesla",
-    "relation": "FOUNDED_BY",
-    "object": "Marc Tarpenning"
+    "relation": "AVERAGE_TRANSACTION_PRICE",
+    "object": "$52,315"
   },
   {
     "subject": "Tesla",
-    "relation": "FOUNDED_BY",
-    "object": "JB Straubel"
+    "relation": "DECREASE_PERCENTAGE_YOY",
+    "object": "13.5%"
   },
   {
-    "subject": "Tesla",
-    "relation": "FOUNDED_BY",
-    "object": "Ian Wright"
+    "subject": "US electric vehicle sector",
+    "relation": "LEASED_EVS_PERCENTAGE",
+    "object": "27%"
   },
   {
-    "subject": "Tesla",
-    "relation": "FOUNDED_IN",
-    "object": "2003"
+    "subject": "US electric vehicle sector",
+    "relation": "LEASED_EVS_INCREASE",
+    "object": "more than double from the year before"
   },
   {
-    "subject": "SpaceX",
-    "relation": "FOUNDED_BY",
-    "object": "Elon Musk"
+    "subject": "Inflation Reduction Act",
+    "relation": "TAX_CREDIT",
+    "object": "$7,500"
   },
   {
-    "subject": "SpaceX",
-    "relation": "FOUNDED_IN",
-    "object": "2002"
+    "subject": "Electric Vehicles",
+    "relation": "TAX_CREDIT",
+    "object": "Clean Vehicle Tax Credits"
   },
   {
-    "subject": "SpaceX",
-    "relation": "LOCATED_IN",
-    "object": "Hawthorne, California"
+    "subject": "Battery Prices",
+    "relation": "GROWTH_RATE",
+    "object": "expected to decline"
   },
   {
-    "subject": "Google",
-    "relation": "FOUNDED_BY",
-    "object": "Larry Page"
+    "subject": "Energy Costs for EVs",
+    "relation": "COMPARATIVE_COST",
+    "object": "lower than conventional vehicles"
   },
   {
-    "subject": "Google",
-    "relation": "FOUNDED_BY",
-    "object": "Sergey Brin"
+    "subject": "Purchase Prices of EVs",
+    "relation": "COMPARATIVE_COST",
+    "object": "significantly higher than conventional vehicles"
   },
   {
-    "subject": "Google",
-    "relation": "FOUNDED_IN",
-    "object": "1998"
+    "subject": "Citi Research",
+    "relation": "LEAD_AUTHOR_OF",
+    "object": "Electric Vehicles: Slow, then Fast"
   },
   {
-    "subject": "Google",
-    "relation": "LOCATED_AT",
-    "object": "Stanford University"
+    "subject": "electric vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "12%"
   },
   {
-    "subject": "Larry Page",
-    "relation": "CREATED",
-    "object": "PageRank"
+    "subject": "electric vehicles",
+    "relation": "REGIONAL_GROWTH_EUROPE",
+    "object": "-1%"
   },
   {
-    "subject": "Sergey Brin",
-    "relation": "CREATED",
-    "object": "PageRank"
+    "subject": "electric vehicles",
+    "relation": "REGIONAL_GROWTH_CHINA",
+    "object": "+6%"
   },
   {
-    "subject": "Google",
-    "relation": "HEADQUARTERED_IN",
-    "object": "Mountain View, California"
+    "subject": "electric vehicles",
+    "relation": "REGIONAL_GROWTH_U.S.",
+    "object": "+26%"
   },
   {
-    "subject": "Google",
-    "relation": "ACQUIRED",
-    "object": "DeepMind"
+    "subject": "global penetration",
+    "relation": "PENETRATION_RATE",
+    "object": "13%"
   },
   {
-    "subject": "DeepMind",
-    "relation": "FOUNDED_BY",
-    "object": "Demis Hassabis"
+    "subject": "global penetration",
+    "relation": "PREVIOUS_RATE",
+    "object": "12%"
   },
   {
-    "subject": "DeepMind",
-    "relation": "FOUNDED_BY",
-    "object": "Shane Legg"
-  },
-  {
-    "subject": "DeepMind",
-    "relation": "FOUNDED_BY",
-    "object": "Mustafa Suleyman"
-  },
-  {
-    "subject": "DeepMind",
-    "relation": "FOUNDED_IN",
-    "object": "2010"
-  },
-  {
-    "subject": "DeepMind",
-    "relation": "LOCATED_IN",
-    "object": "London"
-  },
-  {
-    "subject": "Google",
-    "relation": "ACQUIRED_FOR",
-    "object": "500 million dollars"
-  },
-  {
-    "subject": "Google",
-    "relation": "ACQUIRED_IN",
-    "object": "2014"
-  },
-  {
-    "subject": "Demis Hassabis",
-    "relation": "CEO_OF",
-    "object": "DeepMind"
-  },
-  {
-    "subject": "DeepMind",
-    "relation": "DEVELOPED",
-    "object": "AlphaGo"
-  },
-  {
-    "subject": "DeepMind",
-    "relation": "DEVELOPED",
-    "object": "AlphaFold"
-  },
-  {
-    "subject": "Sundar Pichai",
-    "relation": "CEO_OF",
-    "object": "Google"
-  },
-  {
-    "subject": "Sundar Pichai",
-    "relation": "CEO_OF",
-    "object": "Alphabet"
-  },
-  {
-    "subject": "Sundar Pichai",
-    "relation": "REPLACED",
-    "object": "Larry Page"
-  },
-  {
-    "subject": "Sundar Pichai",
-    "relation": "FOUNDED_IN",
-    "object": "2019"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "FOUNDED_BY",
-    "object": "Bill Gates"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "FOUNDED_BY",
-    "object": "Paul Allen"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "FOUNDED_IN",
-    "object": "1975"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "LOCATED_IN",
-    "object": "Albuquerque, New Mexico"
-  },
-  {
-    "subject": "Bill Gates",
-    "relation": "CO_FOUNDED",
-    "object": "Microsoft"
-  },
-  {
-    "subject": "Bill Gates",
-    "relation": "CEO_OF",
-    "object": "Microsoft"
-  },
-  {
-    "subject": "Paul Allen",
-    "relation": "LEFT",
-    "object": "Microsoft"
-  },
-  {
-    "subject": "Paul Allen",
-    "relation": "LEFT_IN",
-    "object": "1983"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "ACQUIRED",
-    "object": "GitHub"
-  },
-  {
-    "subject": "GitHub",
-    "relation": "FOUNDED_BY",
-    "object": "Tom Preston-Werner"
-  },
-  {
-    "subject": "GitHub",
-    "relation": "FOUNDED_BY",
-    "object": "Chris Wanstrath"
-  },
-  {
-    "subject": "GitHub",
-    "relation": "FOUNDED_BY",
-    "object": "PJ Hyett"
-  },
-  {
-    "subject": "GitHub",
-    "relation": "FOUNDED_BY",
-    "object": "Scott Chacon"
-  },
-  {
-    "subject": "GitHub",
-    "relation": "FOUNDED_IN",
-    "object": "2008"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "ACQUISITION_PRICE",
-    "object": "7.5 billion dollars"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "ACQUIRED_IN",
-    "object": "2018"
-  },
-  {
-    "subject": "Microsoft",
-    "relation": "INVESTED_IN",
-    "object": "OpenAI"
-  },
-  {
-    "subject": "OpenAI",
-    "relation": "FOUNDED_IN",
+    "subject": "global penetration",
+    "relation": "YEAR",
     "object": "2023"
   },
   {
-    "subject": "Microsoft",
-    "relation": "INTEGRATED",
-    "object": "GPT-4"
+    "subject": "growth",
+    "relation": "ACCELERATION_FORECAST_YEAR",
+    "object": "next year"
   },
   {
-    "subject": "Microsoft",
-    "relation": "INTEGRATED",
-    "object": "Copilot"
+    "subject": "annual penetration gains",
+    "relation": "RANGE",
+    "object": "3-4 points"
   },
   {
-    "subject": "Satya Nadella",
-    "relation": "CEO_OF",
-    "object": "Microsoft"
+    "subject": "Global EV adoption",
+    "relation": "GROWTH_RATE",
+    "object": "33% by 2030"
   },
   {
-    "subject": "Satya Nadella",
-    "relation": "FOUNDED_IN",
-    "object": "2014"
+    "subject": "U.S. EV adoption",
+    "relation": "GROWTH_RATE",
+    "object": "37% by 2030"
   },
   {
-    "subject": "Apple",
-    "relation": "FOUNDED_BY",
-    "object": "Steve Jobs"
+    "subject": "Europe EV adoption",
+    "relation": "GROWTH_RATE",
+    "object": "40% by 2030"
   },
   {
-    "subject": "Apple",
-    "relation": "FOUNDED_BY",
-    "object": "Steve Wozniak"
+    "subject": "China EV adoption",
+    "relation": "GROWTH_RATE",
+    "object": "48% by 2030"
   },
   {
-    "subject": "Apple",
-    "relation": "FOUNDED_BY",
-    "object": "Ronald Wayne"
+    "subject": "Annual penetration gains",
+    "relation": "GROWTH_RATE",
+    "object": "3- to 4-point range"
   },
   {
-    "subject": "Apple",
-    "relation": "FOUNDED_IN",
-    "object": "1976"
+    "subject": "Citi BEV Forecast",
+    "relation": "PUBLISHED_BY",
+    "object": "Citigroup Inc."
   },
   {
-    "subject": "Apple",
-    "relation": "LOCATED_IN",
-    "object": "Cupertino, California"
+    "subject": "Citi Research",
+    "relation": "PUBLISHED_BY",
+    "object": "Citigroup Inc."
   },
   {
-    "subject": "Steve Jobs",
-    "relation": "CO_FOUNDED",
-    "object": "Apple"
+    "subject": "PHEVs demand growth",
+    "relation": "STRONGER_THAN",
+    "object": "BEV sales growth through 2026"
   },
   {
-    "subject": "Steve Jobs",
-    "relation": "CEO_OF",
-    "object": "Apple"
+    "subject": "seven nameplates",
+    "relation": "MARKET_SHARE",
+    "object": "70%"
   },
   {
-    "subject": "Steve Wozniak",
-    "relation": "DESIGNED",
-    "object": "Apple I"
+    "subject": "Citi",
+    "relation": "PUBLISHED_BY",
+    "object": "EV penetration matrix"
   },
   {
-    "subject": "Steve Wozniak",
-    "relation": "DESIGNED",
-    "object": "Apple II"
+    "subject": "SUVs",
+    "relation": "PRICE_RANGE",
+    "object": "$40,000–$45,000"
   },
   {
-    "subject": "Tim Cook",
-    "relation": "CEO_OF",
-    "object": "Apple"
+    "subject": "U.S. Electric Vehicle Investments",
+    "relation": "MARKET_SIZE",
+    "object": "$188 Billion"
   },
   {
-    "subject": "Apple",
-    "relation": "FOUNDED_IN",
-    "object": "2011"
+    "subject": "U.S. Electric Vehicle Manufacturing Investments",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2024"
   },
   {
-    "subject": "Steve Jobs",
-    "relation": "RESIGNED_FROM",
-    "object": "Apple"
+    "subject": "Inflation Reduction Act",
+    "relation": "PASSED_YEAR",
+    "object": "2022"
   },
   {
-    "subject": "Apple",
-    "relation": "ACQUIRED",
-    "object": "Beats Electronics"
+    "subject": "U.S. Electric Vehicle Manufacturing Investments",
+    "relation": "GROWTH_RATE",
+    "object": "strong"
   },
   {
-    "subject": "Beats Electronics",
-    "relation": "FOUNDED_BY",
-    "object": "Dr. Dre"
+    "subject": "U.S. Electric Vehicle Manufacturing",
+    "relation": "DIRECT_JOBS",
+    "object": "195,000"
   },
   {
-    "subject": "Beats Electronics",
-    "relation": "FOUNDED_BY",
-    "object": "Jimmy Iovine"
+    "subject": "U.S. Electric Vehicle Manufacturing",
+    "relation": "INVESTMENT_PERIOD",
+    "object": "last nine years"
   },
   {
-    "subject": "Beats Electronics",
-    "relation": "FOUNDED_IN",
-    "object": "2014"
+    "subject": "U.S. Electric Vehicle Manufacturing",
+    "relation": "ANNOUNCEMENTS_PERIOD",
+    "object": "last 18 months"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_BY",
-    "object": "Mark Zuckerberg"
+    "subject": "Georgia",
+    "relation": "EV_INVESTMENTS",
+    "object": "$31.2 billion"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_BY",
-    "object": "Eduardo Saverin"
+    "subject": "Georgia",
+    "relation": "ANNOUNCED_JOBS",
+    "object": "38,700"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_BY",
-    "object": "Andrew McCollum"
+    "subject": "Michigan",
+    "relation": "EV_INVESTMENTS",
+    "object": "more than $20 billion"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_BY",
-    "object": "Dustin Moskovitz"
+    "subject": "North Carolina",
+    "relation": "EV_INVESTMENTS",
+    "object": "$9 billion"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_BY",
-    "object": "Chris Hughes"
+    "subject": "Ellen Robo",
+    "relation": "MANAGER_OF",
+    "object": "Environmental Defense Fund"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_IN",
-    "object": "2004"
+    "subject": "Environmental Defense Fund",
+    "relation": "PUBLISHED_BY",
+    "object": "WSP"
   },
   {
-    "subject": "Meta",
-    "relation": "FOUNDED_IN",
-    "object": "Harvard University"
+    "subject": "Electric Vehicle Manufacturing Report",
+    "relation": "UPDATED",
+    "object": "six months ago"
   },
   {
-    "subject": "Mark Zuckerberg",
-    "relation": "CEO_OF",
-    "object": "Meta"
+    "subject": "Electric Vehicle Manufacturing Report",
+    "relation": "UPDATED",
+    "object": "today"
   },
   {
-    "subject": "Facebook",
-    "relation": "RENAME_TO",
-    "object": "Meta"
+    "subject": "Electric Vehicle Manufacturing Report",
+    "relation": "ORIGINALLY_RELEASED",
+    "object": "one year ago"
   },
   {
-    "subject": "Facebook",
-    "relation": "FOUNDED_IN",
-    "object": "2021"
+    "subject": "U.S. Electric Vehicle Investments",
+    "relation": "EV_INVESTMENTS",
+    "object": "$31.2 Billion"
   },
   {
-    "subject": "Meta",
-    "relation": "ACQUIRED",
-    "object": "Instagram"
+    "subject": "U.S. Electric Vehicle Sector",
+    "relation": "ANNOUNCED_JOBS",
+    "object": "38,700"
   },
   {
-    "subject": "Instagram",
-    "relation": "FOUNDED_BY",
-    "object": "Kevin Systrom"
+    "subject": "Michigan",
+    "relation": "ANNOUNCED_MANUFACTURING_INVESTMENTS",
+    "object": "$20 Billion"
   },
   {
-    "subject": "Instagram",
-    "relation": "FOUNDED_BY",
-    "object": "Mike Krieger"
+    "subject": "North Carolina",
+    "relation": "ANNOUNCED_EV_INVESTMENTS",
+    "object": "$19 Billion"
   },
   {
-    "subject": "Instagram",
-    "relation": "FOUNDED_IN",
-    "object": "2010"
+    "subject": "North Carolina",
+    "relation": "INCREASE_IN_EV_INVESTMENTS",
+    "object": "$9 Billion"
   },
   {
-    "subject": "Instagram",
-    "relation": "ACQUIRED_IN",
-    "object": "2012"
+    "subject": "Illinois",
+    "relation": "TOP_TEN_STATES_FOR_EV_INVESTMENTS",
+    "object": "True"
   },
   {
-    "subject": "Instagram",
-    "relation": "ACQUIRED_FOR",
-    "object": "1 billion dollars"
+    "subject": "U.S. Manufacturing Facilities",
+    "relation": "PRODUCTION_CAPACITY_YEAR",
+    "object": "2027"
   },
   {
-    "subject": "Meta",
-    "relation": "ACQUIRED",
-    "object": "WhatsApp"
+    "subject": "Ilaria Mazzocco",
+    "relation": "TESTIFIED_BEFORE",
+    "object": "U.S.-China Economic and Security Review Commission"
   },
   {
-    "subject": "WhatsApp",
-    "relation": "FOUNDED_BY",
-    "object": "Brian Acton"
+    "subject": "China's electric vehicle industry",
+    "relation": "IMPLICATIONS_FOR",
+    "object": "United States"
   },
   {
-    "subject": "WhatsApp",
-    "relation": "FOUNDED_BY",
-    "object": "Jan Koum"
+    "subject": "China's electric vehicle industry",
+    "relation": "IMPLICATIONS_FOR",
+    "object": "the world"
   },
   {
-    "subject": "WhatsApp",
-    "relation": "FOUNDED_IN",
-    "object": "2009"
+    "subject": "shift towards electric vehicles",
+    "relation": "RESHAPING",
+    "object": "automotive sector"
   },
   {
-    "subject": "Meta",
-    "relation": "ACQUIRED",
-    "object": "WhatsApp in 2014 for 19 billion dollars"
+    "subject": "shift towards electric vehicles",
+    "relation": "CALLING_INTO_QUESTION",
+    "object": "future of companies"
   },
   {
-    "subject": "Amazon",
-    "relation": "FOUNDED_BY",
-    "object": "Jeff Bezos"
+    "subject": "China",
+    "relation": "RISE_AS",
+    "object": "EV and EV component manufacturing hub"
   },
   {
-    "subject": "Amazon",
-    "relation": "FOUNDED_IN",
-    "object": "1994"
+    "subject": "Electric vehicles",
+    "relation": "NO_TAILPIPE_EMISSIONS",
+    "object": "True"
   },
   {
-    "subject": "Amazon",
-    "relation": "LOCATED_IN",
-    "object": "Seattle, Washington"
+    "subject": "Electric vehicles",
+    "relation": "GENERATE_CARBON_POLLUTION",
+    "object": "Varies widely based on local power generation"
   },
   {
-    "subject": "Jeff Bezos",
-    "relation": "CEO_OF",
-    "object": "Amazon"
+    "subject": "Coal",
+    "relation": "EMITS_CARBON_POLLUTION",
+    "object": "True"
   },
   {
-    "subject": "Jeff Bezos",
-    "relation": "CEO_OF",
-    "object": "Amazon until 2021"
+    "subject": "Natural gas",
+    "relation": "EMITS_CARBON_POLLUTION",
+    "object": "True"
   },
   {
-    "subject": "Andy Jassy",
-    "relation": "CEO_OF",
-    "object": "Amazon"
+    "subject": "Renewable resources",
+    "relation": "DO_NOT_EMIT_CARBON_POLLUTION",
+    "object": "True"
   },
   {
-    "subject": "Amazon",
-    "relation": "FOUNDED_IN",
-    "object": "2021"
+    "subject": "EV",
+    "relation": "LOWER_GHG_LEVELS_THAN",
+    "object": "Average new gasoline car"
   },
   {
-    "subject": "Amazon",
-    "relation": "ACQUIRED",
-    "object": "AWS"
+    "subject": "Electric Vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "87%–91%"
   },
   {
-    "subject": "Amazon",
-    "relation": "ACQUIRED",
-    "object": "Whole Foods"
+    "subject": "Gasoline Vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "16%–25%"
   },
   {
-    "subject": "Whole Foods",
-    "relation": "ACQUIRED_IN",
-    "object": "2017"
-  },
-  {
-    "subject": "Amazon",
-    "relation": "ACQUIRED",
-    "object": "Twitch"
-  },
-  {
-    "subject": "Twitch",
-    "relation": "ACQUIRED_IN",
-    "object": "2014"
-  },
-  {
-    "subject": "Twitch",
-    "relation": "FOUNDED_BY",
-    "object": "Justin Kan"
-  },
-  {
-    "subject": "Twitch",
-    "relation": "FOUNDED_BY",
-    "object": "Emmett Shear"
-  },
-  {
-    "subject": "Twitch",
-    "relation": "FOUNDED_IN",
-    "object": "2011"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "FOUNDED_BY",
-    "object": "Jensen Huang"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "FOUNDED_BY",
-    "object": "Chris Malachowsky"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "FOUNDED_BY",
-    "object": "Curtis Priem"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "FOUNDED_IN",
-    "object": "1993"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "LOCATED_IN",
-    "object": "Santa Clara, California"
-  },
-  {
-    "subject": "Jensen Huang",
-    "relation": "CEO_OF",
-    "object": "NVIDIA"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "PRODUCES",
-    "object": "GPU"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "SUPPLIER_OF",
-    "object": "AI"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "MARKET_CAP",
-    "object": "1 trillion dollars"
-  },
-  {
-    "subject": "NVIDIA",
-    "relation": "ACHIEVED",
-    "object": "2023"
-  },
-  {
-    "subject": "IBM",
-    "relation": "FOUNDED_IN",
-    "object": "1911"
-  },
-  {
-    "subject": "IBM",
-    "relation": "DEVELOPED",
-    "object": "Deep Blue"
-  },
-  {
-    "subject": "Deep Blue",
-    "relation": "DEFEATED",
-    "object": "Garry Kasparov"
-  },
-  {
-    "subject": "Deep Blue",
-    "relation": "DEFEATED_IN",
-    "object": "1997"
-  },
-  {
-    "subject": "IBM",
-    "relation": "ACQUIRED",
-    "object": "Lenovo"
-  },
-  {
-    "subject": "IBM",
-    "relation": "FOUNDED_IN",
-    "object": "2005"
-  },
-  {
-    "subject": "Arvind Krishna",
-    "relation": "CEO_OF",
-    "object": "IBM"
-  },
-  {
-    "subject": "IBM",
-    "relation": "FOUNDED_IN",
+    "subject": "Renewables",
+    "relation": "PREVALENT_YEAR",
     "object": "2020"
   },
   {
-    "subject": "Oracle",
+    "subject": "Renewables",
+    "relation": "SECOND_MOST_PREVALENT_SOURCE",
+    "object": "U.S. electricity"
+  },
+  {
+    "subject": "GREET",
+    "relation": "ESTIMATES_YEAR",
+    "object": "2021"
+  },
+  {
+    "subject": "model year 2020",
+    "relation": "EMISSIONS_COMPARISON",
+    "object": "lower than gasoline car"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "MARKET_SIZE",
+    "object": "2,000,000 vehicles"
+  },
+  {
+    "subject": "2019",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2,000,000 vehicles sold"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "MARKET_SIZE",
+    "object": "over 2 million vehicles"
+  },
+  {
+    "subject": "2019",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2 million vehicles"
+  },
+  {
+    "subject": "Deloitte",
+    "relation": "PUBLISHED_BY",
+    "object": "Deloitte Insights"
+  },
+  {
+    "subject": "Deloitte",
+    "relation": "LAST_FORECAST_YEAR",
+    "object": "January 2019"
+  },
+  {
+    "subject": "OEMs",
+    "relation": "INVESTMENT_AMOUNT",
+    "object": "billions"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "GROWTH_RATE",
+    "object": "sustained throughout the 2020s"
+  },
+  {
+    "subject": "BEV and PHEV sales",
+    "relation": "MARKET_SIZE",
+    "object": "two million vehicles"
+  },
+  {
+    "subject": "EV market",
+    "relation": "MARKET_SHARE",
+    "object": "2.5%"
+  },
+  {
+    "subject": "BEVs",
+    "relation": "MARKET_SHARE",
+    "object": "74%"
+  },
+  {
+    "subject": "BEVs",
+    "relation": "INCREASE",
+    "object": "six percentage points since 2018"
+  },
+  {
+    "subject": "European emissions standards",
+    "relation": "STIMULATES",
+    "object": "manufacturers"
+  },
+  {
+    "subject": "2019",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2019"
+  },
+  {
+    "subject": "EVO Report 2024",
+    "relation": "PUBLISHED_BY",
+    "object": "BloombergNEF"
+  },
+  {
+    "subject": "EVO Report 2024",
+    "relation": "PUBLISHED_BY",
+    "object": "Bloomberg Finance LP"
+  },
+  {
+    "subject": "electric commercial vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "blistering"
+  },
+  {
+    "subject": "buses",
+    "relation": "ELECTRIFICATION_LEVEL",
+    "object": "very high"
+  },
+  {
+    "subject": "two- and three-wheelers",
+    "relation": "ELECTRIFICATION_LEVEL",
+    "object": "very high"
+  },
+  {
+    "subject": "2024",
+    "relation": "YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "BloombergNEF",
+    "relation": "PUBLISHED_BY",
+    "object": "Bloomberg Finance LP"
+  },
+  {
+    "subject": "US electric vehicle sector",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2050"
+  },
+  {
+    "subject": "global passenger vehicle sales",
+    "relation": "GROWTH_RATE",
+    "object": "Compound annual growth rate from 2019 to 2023"
+  },
+  {
+    "subject": "Lithium iron phosphate (LFP) battery cell prices",
+    "relation": "PRICE",
+    "object": "$/kWh"
+  },
+  {
+    "subject": "2023",
+    "relation": "PRICE_SOURCE",
+    "object": "BNEF’s Lithium-ion Battery Price Survey"
+  },
+  {
+    "subject": "2024",
+    "relation": "PRICE_SOURCE",
+    "object": "Jan-Apr from ICC Battery"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "REVENUE",
+    "object": "$26.0 billion"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "18%"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "262%"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GAAP_EARNINGS_PER_DILUTED_SHARE",
+    "object": "$5.98"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "21%"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "629%"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "NON_GAAP_EARNINGS_PER_DILUTED_SHARE",
+    "object": "$6.12"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "19%"
+  },
+  {
+    "subject": "NVIDIA",
+    "relation": "GROWTH_RATE",
+    "object": "461%"
+  },
+  {
+    "subject": "Jensen Huang",
     "relation": "FOUNDED_BY",
-    "object": "Larry Ellison"
+    "object": "NVIDIA"
   },
   {
-    "subject": "Oracle",
-    "relation": "FOUNDED_BY",
-    "object": "Bob Miner"
+    "subject": "Polestar Automotive Holding UK PLC",
+    "relation": "PUBLISHED_BY",
+    "object": "Polestar"
   },
   {
-    "subject": "Oracle",
-    "relation": "FOUNDED_BY",
-    "object": "Ed Oates"
+    "subject": "Polestar",
+    "relation": "FINANCIAL_RESULTS_PERIOD",
+    "object": "nine months ended September 30, 2023"
   },
   {
-    "subject": "Oracle",
-    "relation": "FOUNDED_IN",
-    "object": "1977"
+    "subject": "Polestar",
+    "relation": "REVENUE",
+    "object": "N/A"
   },
   {
-    "subject": "Larry Ellison",
-    "relation": "CEO_OF",
-    "object": "Oracle"
+    "subject": "Polestar",
+    "relation": "COST_OF_SALES",
+    "object": "N/A"
   },
   {
-    "subject": "Oracle",
-    "relation": "ACQUIRED",
-    "object": "Sun Microsystems"
+    "subject": "Polestar",
+    "relation": "GROSS_PROFIT",
+    "object": "N/A"
   },
   {
-    "subject": "Sun Microsystems",
-    "relation": "FOUNDED_IN",
-    "object": "2010"
+    "subject": "Polestar",
+    "relation": "GROSS_MARGIN",
+    "object": "N/A"
   },
   {
-    "subject": "Sun Microsystems",
-    "relation": "CREATED",
-    "object": "Java"
+    "subject": "Polestar",
+    "relation": "SELLING_GENERAL_ADMINISTRATIVE_EXPENSE",
+    "object": "N/A"
   },
   {
-    "subject": "Twitter",
-    "relation": "FOUNDED_BY",
-    "object": "Jack Dorsey"
+    "subject": "Polestar",
+    "relation": "RESEARCH_AND_DEVELOPMENT_EXPENSE",
+    "object": "N/A"
   },
   {
-    "subject": "Twitter",
-    "relation": "FOUNDED_BY",
-    "object": "Noah Glass"
+    "subject": "Polestar",
+    "relation": "OTHER_OPERATING_INCOME_EXPENSE",
+    "object": "N/A"
   },
   {
-    "subject": "Twitter",
-    "relation": "FOUNDED_BY",
-    "object": "Biz Stone"
+    "subject": "Polestar",
+    "relation": "LISTING_EXPENSE",
+    "object": "N/A"
   },
   {
-    "subject": "Twitter",
-    "relation": "FOUNDED_BY",
-    "object": "Evan Williams"
+    "subject": "Polestar",
+    "relation": "OPERATING_LOSS",
+    "object": "N/A"
   },
   {
-    "subject": "Twitter",
-    "relation": "FOUNDED_IN",
-    "object": "2006"
+    "subject": "Polestar",
+    "relation": "ADJUSTED_OPERATING_LOSS",
+    "object": "N/A"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "ACQUIRED",
-    "object": "Twitter"
+    "subject": "Polestar",
+    "relation": "LISTING_EXPENSE_DESCRIPTION",
+    "object": "non-recurring, non-cash, share-based listing charge"
   },
   {
-    "subject": "Twitter",
-    "relation": "ACQUIRED_IN",
+    "subject": "Polestar",
+    "relation": "BUSINESS_COMBINATION_WITH",
+    "object": "Gores Guggenheim, Inc"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "REPORT_DATE",
+    "object": "8 November 2023"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "PUBLISHED_BY",
+    "object": "third quarter 2023 financial results"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "REVENUE",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "COST_OF_SALES",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "GROSS_PROFIT",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "GROSS_MARGIN",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "SELLING_GENERAL_ADMIN_EXPENSE",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "RESEARCH_AND_DEVELOPMENT_EXPENSE",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "OTHER_OPERATING_INCOME_EXPENSE",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "LISTING_EXPENSE",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "OPERATING_LOSS",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "ADJUSTED_OPERATING_LOSS",
+    "object": "not specified"
+  },
+  {
+    "subject": "Polestar",
+    "relation": "PROJECTS_PEAK_YEAR",
     "object": "2022"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "RENAME",
-    "object": "X"
+    "subject": "Polestar",
+    "relation": "VARIANCES_FOR_3_MONTHS_ENDED",
+    "object": "September 30, 2023 and 2022"
   },
   {
-    "subject": "Twitter",
-    "relation": "RENAME_TO",
-    "object": "X"
+    "subject": "VinFast",
+    "relation": "DELIVERED_VEHICLES",
+    "object": "21,912"
   },
   {
-    "subject": "Twitter",
-    "relation": "RENAME_IN",
+    "subject": "VinFast",
+    "relation": "YEAR_OVER_YEAR_INCREASE",
+    "object": "115%"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "REVENUE",
+    "object": "US$511.6 million"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "REVENUE_YEAR_OVER_YEAR_INCREASE",
+    "object": "49.3%"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "TOP_SELLING_BRAND_IN_VIETNAM",
+    "object": "September 2024"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "TOP_SELLING_BRAND_IN_VIETNAM",
+    "object": "October 2024"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "TOP_SELLING_BRAND_IN_VIETNAM",
+    "object": "First ten months of 2024"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "PUBLISHED_BY",
+    "object": "PRNewswire"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q1 2024"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q1 2023"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q4 2023"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q3 2023"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q2 2023"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q1 2022"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q4 2022"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q3 2022"
+  },
+  {
+    "subject": "ZEEKR Intelligent Technology Holding Limited",
+    "relation": "DELIVERIES",
+    "object": "Q2 2022"
+  },
+  {
+    "subject": "ZEEKR",
+    "relation": "DELIVERED_VEHICLES_APRIL_2024",
+    "object": "16089"
+  },
+  {
+    "subject": "ZEEKR",
+    "relation": "DELIVERY_INCREASE_APRIL_2024",
+    "object": "99%"
+  },
+  {
+    "subject": "ZEEKR",
+    "relation": "DELIVERED_VEHICLES_MAY_2024",
+    "object": "18616"
+  },
+  {
+    "subject": "ZEEKR",
+    "relation": "DELIVERY_INCREASE_MAY_2024",
+    "object": "115%"
+  },
+  {
+    "subject": "ZEEKR 001",
+    "relation": "LAUNCHED_IN",
+    "object": "February 2024"
+  },
+  {
+    "subject": "ZEEKR 001",
+    "relation": "DELIVERIES_STARTED",
+    "object": "March 2024"
+  },
+  {
+    "subject": "ZEEKR 009 Grand",
+    "relation": "LAUNCHED_IN",
+    "object": "April 2024"
+  },
+  {
+    "subject": "ZEEKR 009 Grand",
+    "relation": "DELIVERIES_STARTED",
+    "object": "May 2024"
+  },
+  {
+    "subject": "Andy An",
+    "relation": "CEO_OF",
+    "object": "ZEEKR"
+  },
+  {
+    "subject": "ZEEKR",
+    "relation": "FIRST_QUARTER_2024_PERFORMANCE",
+    "object": "excellent operational and financial performance"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "EBIT",
+    "object": "€19.7 billion"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "EBIT_2022",
+    "object": "€20.5 billion"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "REVENUES",
+    "object": "€153.2 billion"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "REVENUES_2022",
+    "object": "€150.0 billion"
+  },
+  {
+    "subject": "Mercedes-Benz Cars",
+    "relation": "RETURN_ON_SALES",
+    "object": "12.6%"
+  },
+  {
+    "subject": "Mercedes-Benz Vans",
+    "relation": "RETURN_ON_SALES",
+    "object": "15.1%"
+  },
+  {
+    "subject": "Mercedes-Benz Mobility",
+    "relation": "RETURN_ON_EQUITY",
+    "object": "12.3%"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "GROUP_UNIT_SALES",
+    "object": "2.49 million"
+  },
+  {
+    "subject": "Mercedes-Benz Group",
+    "relation": "ANNUAL_MEETING",
+    "object": "2024"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "20% in 2024"
+  },
+  {
+    "subject": "Road transport",
+    "relation": "ACCOUNTS_FOR",
+    "object": "one-sixth of global emissions"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "15%"
+  },
+  {
+    "subject": "New cars sold in 2023",
+    "relation": "MARKET_SHARE",
+    "object": "18%"
+  },
+  {
+    "subject": "CO2 emissions from cars",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2030"
+  },
+  {
+    "subject": "Net Zero Emissions",
+    "relation": "TARGET_YEAR",
+    "object": "2050"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "PUBLISHED_BY",
+    "object": "Fourth Quarter 2021 Financial Results"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "FOUNDED_BY",
+    "object": "Daniel Barel"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "START_OF_PRODUCTION",
+    "object": "2022"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "FOCUSED_ON",
+    "object": "enhancing capabilities, expanding addressable market, validating technology, building supply chain"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2021"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "STRATEGIC_COLLABORATIONS",
+    "object": "various types of commercial delivery vehicles and people movers"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "YEAR",
+    "object": "2021"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "MARKET_SHARE",
+    "object": "N/A"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2022"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "UNVEILED",
+    "object": "autonomous concept vehicle"
+  },
+  {
+    "subject": "REE Automotive",
+    "relation": "DESIGN_BASED_ON",
+    "object": "modular EV platform"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "REPORTS_FINANCIAL_RESULTS_FOR",
+    "object": "Q1 2023"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "ORDERS_FOR_HYDROGEN_FUEL_CELL_TRUCKS",
+    "object": "140"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "CEO_OF",
+    "object": "Michael Lohscheller"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "FOCUS_ON",
+    "object": "North American market"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "FOCUS_ON",
+    "object": "hydrogen fuel cell trucks"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "FOCUS_ON",
+    "object": "HYLA hydrogen refueling business"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "FOCUS_ON",
+    "object": "autonomous technologies"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "PROJECTS_PEAK_YEAR",
     "object": "2023"
   },
   {
-    "subject": "Jack Dorsey",
-    "relation": "CEO_OF",
-    "object": "Twitter"
+    "subject": "Nikola Corporation",
+    "relation": "SELLS_STAKE_TO",
+    "object": "Iveco Group"
   },
   {
-    "subject": "Linda Yaccarino",
-    "relation": "CEO_OF",
-    "object": "X"
+    "subject": "Nikola Corporation",
+    "relation": "CASH_CONSIDERATION",
+    "object": "$35 million"
   },
   {
-    "subject": "Elon Musk",
-    "relation": "ACQUIRED",
-    "object": "X"
+    "subject": "Nikola Corporation",
+    "relation": "SHARES_RETURNED",
+    "object": "20.6 million shares"
   },
   {
-    "subject": "Netflix",
-    "relation": "FOUNDED_BY",
-    "object": "Reed Hastings"
+    "subject": "Voltera Power",
+    "relation": "SUPPLY_CAPITAL_FOR",
+    "object": "50 HYLA hydrogen refueling stations"
   },
   {
-    "subject": "Netflix",
-    "relation": "FOUNDED_BY",
-    "object": "Marc Randolph"
+    "subject": "Voltera Power",
+    "relation": "SUPPLY_CAPITAL_OVER",
+    "object": "5 years"
   },
   {
-    "subject": "Netflix",
-    "relation": "FOUNDED_IN",
-    "object": "1997"
+    "subject": "Nikola Corporation",
+    "relation": "ANNOUNCED_ON",
+    "object": "May 2, 2023"
   },
   {
-    "subject": "Netflix",
-    "relation": "LOCATED_IN",
-    "object": "Scotts Valley, California"
+    "subject": "City of Buckeye City Council",
+    "relation": "APPROVED",
+    "object": "general plan amendment and rezoning application"
   },
   {
-    "subject": "Reed Hastings",
-    "relation": "CO_FOUNDED",
-    "object": "Netflix"
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "CURRENT_INDEX_SCORE",
+    "object": "42"
   },
   {
-    "subject": "Netflix",
-    "relation": "TRANSITIONED_TO",
-    "object": "streaming"
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "INDEX_SCORE_ONE_YEAR_AGO",
+    "object": "45"
   },
   {
-    "subject": "Netflix",
-    "relation": "FOUNDED_IN",
-    "object": "2007"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "FOUNDED_BY",
-    "object": "John Warnock"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "FOUNDED_BY",
-    "object": "Charles Geschke"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "FOUNDED_IN",
-    "object": "1982"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "CREATED",
-    "object": "PDF"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "CREATED",
-    "object": "Photoshop"
-  },
-  {
-    "subject": "Adobe",
-    "relation": "ACQUIRED",
-    "object": "Figma"
-  },
-  {
-    "subject": "Figma",
-    "relation": "FOUNDED_BY",
-    "object": "Dylan Field"
-  },
-  {
-    "subject": "Figma",
-    "relation": "FOUNDED_IN",
-    "object": "2012"
-  },
-  {
-    "subject": "Figma",
-    "relation": "ACQUIRED_IN",
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "LAST_STRONG_SENTIMENT_YEAR",
     "object": "2022"
   },
   {
-    "subject": "Salesforce",
-    "relation": "FOUNDED_BY",
-    "object": "Marc Benioff"
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "MARKET_OUTLOOK_INDEX_Q1_2024",
+    "object": "51"
   },
   {
-    "subject": "Salesforce",
-    "relation": "FOUNDED_IN",
-    "object": "1999"
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "MARKET_OUTLOOK_INDEX_Q2_2024",
+    "object": "44"
   },
   {
-    "subject": "Salesforce",
-    "relation": "LOCATED_IN",
-    "object": "San Francisco"
+    "subject": "Cox Automotive",
+    "relation": "CHIEF_ECONOMIST",
+    "object": "Jonathan Smoke"
   },
   {
-    "subject": "Marc Benioff",
-    "relation": "CEO_OF",
-    "object": "Salesforce"
+    "subject": "Q2",
+    "relation": "PROFIT_INDEX",
+    "object": "increased for the first time since Q3 2021"
   },
   {
-    "subject": "Salesforce",
-    "relation": "ACQUIRED",
-    "object": "Slack"
+    "subject": "Q2",
+    "relation": "PROFIT_PERCEPTIONS",
+    "object": "stabilized"
   },
   {
-    "subject": "Slack",
-    "relation": "FOUNDED_BY",
-    "object": "Stewart Butterfield"
+    "subject": "CADSI",
+    "relation": "THRESHOLD",
+    "object": "50"
   },
   {
-    "subject": "Slack",
-    "relation": "FOUNDED_IN",
-    "object": "2013"
+    "subject": "CADSI",
+    "relation": "CURRENT_VALUE",
+    "object": "36"
   },
   {
-    "subject": "Salesforce",
-    "relation": "ACQUISITION_PRICE",
-    "object": "27.7 billion dollars"
+    "subject": "U.S. Automobile Dealer Sentiment Index",
+    "relation": "SURVEY_RESULT",
+    "object": "42"
   },
   {
-    "subject": "Salesforce",
-    "relation": "ACQUISITION_YEAR",
+    "subject": "U.S. Automobile Dealer Sentiment Index",
+    "relation": "PEAK_YEAR",
+    "object": "2018"
+  },
+  {
+    "subject": "Q2",
+    "relation": "INDEX_SCORE",
+    "object": "42"
+  },
+  {
+    "subject": "Q1",
+    "relation": "INDEX_SCORE",
+    "object": "54"
+  },
+  {
+    "subject": "Used-vehicle sales index",
+    "relation": "THRESHOLD",
+    "object": "50"
+  },
+  {
+    "subject": "Franchised dealers",
+    "relation": "INDEX_SCORE",
+    "object": "54"
+  },
+  {
+    "subject": "Used-vehicle inventory index",
+    "relation": "TREND",
+    "object": "declined"
+  },
+  {
+    "subject": "Used-vehicle inventory index",
+    "relation": "SEASONAL_TREND",
+    "object": "spring survey"
+  },
+  {
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "SURVEY_RESULT",
+    "object": "40"
+  },
+  {
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "SURVEY_RESULT",
+    "object": "42"
+  },
+  {
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "SURVEY_RESULT",
+    "object": "45"
+  },
+  {
+    "subject": "U.S. automobile dealers",
+    "relation": "MARKET_SENTIMENT",
+    "object": "weak"
+  },
+  {
+    "subject": "U.S. automobile dealers",
+    "relation": "PEAK_PROFITS_YEAR",
     "object": "2021"
+  },
+  {
+    "subject": "Franchised dealers",
+    "relation": "SURVEY_RESULT",
+    "object": "50"
+  },
+  {
+    "subject": "Franchised dealers",
+    "relation": "INCREASE_FROM_Q2",
+    "object": "1"
+  },
+  {
+    "subject": "Franchised dealers",
+    "relation": "SENTIMENT_SCORE_Q3",
+    "object": "50"
+  },
+  {
+    "subject": "Independent dealers",
+    "relation": "SENTIMENT_SCORE_Q3",
+    "object": "37"
+  },
+  {
+    "subject": "Independent dealers",
+    "relation": "SENTIMENT_SCORE_Q2_2020",
+    "object": "17"
+  },
+  {
+    "subject": "Market outlook index",
+    "relation": "VALUE_Q3",
+    "object": "42"
+  },
+  {
+    "subject": "Market outlook index",
+    "relation": "VALUE_Q2",
+    "object": "44"
+  },
+  {
+    "subject": "Market outlook index",
+    "relation": "YEAR_AGO_LEVEL",
+    "object": "45"
+  },
+  {
+    "subject": "Independent Dealers",
+    "relation": "PROFITABILITY_INDEX_DECLINE_YEARS",
+    "object": "3"
+  },
+  {
+    "subject": "Franchised Dealers",
+    "relation": "NEW_VEHICLE_SALES_SCORE_Q3_2023",
+    "object": "51"
+  },
+  {
+    "subject": "Franchised Dealers",
+    "relation": "NEW_VEHICLE_SALES_SCORE_Q3_2022",
+    "object": "59"
+  },
+  {
+    "subject": "Overall Used-Vehicle Sales Index",
+    "relation": "VALUE_Q3_2023",
+    "object": "43"
+  },
+  {
+    "subject": "Price Pressure Index",
+    "relation": "VALUE",
+    "object": "66"
+  },
+  {
+    "subject": "Price Pressure",
+    "relation": "RETURNED_TO_US_MARKET",
+    "object": "After late 2021 and most of 2022"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "TAX_CREDIT",
+    "object": "US$3.1 billion"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "GOVERNMENT_LOANS",
+    "object": "hundreds of millions of dollars"
+  },
+  {
+    "subject": "Federal Government",
+    "relation": "TAX_CREDIT",
+    "object": "US$7,500"
+  },
+  {
+    "subject": "Electric Vehicle Industry",
+    "relation": "SUBSIDIES_INCREASE",
+    "object": "massive"
+  },
+  {
+    "subject": "Electric Vehicle Industry",
+    "relation": "POPULARITY_INCREASE",
+    "object": "massive"
+  },
+  {
+    "subject": "Electric Vehicle Industry",
+    "relation": "CONSUMER_SENTIMENT_INCREASE",
+    "object": "massive"
+  },
+  {
+    "subject": "Electric Vehicle Industry",
+    "relation": "SUBSIDIES_PERIOD",
+    "object": "last 10 years"
+  },
+  {
+    "subject": "Federal Government",
+    "relation": "TAX_CREDIT",
+    "object": "$7,500"
+  },
+  {
+    "subject": "Local Subsidies",
+    "relation": "TAX_CREDIT",
+    "object": "$10,000"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "INVESTMENT",
+    "object": "$400 billion"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "CHARGER_TARGET",
+    "object": "500,000"
+  },
+  {
+    "subject": "Existing Charging Stations",
+    "relation": "COUNT",
+    "object": "29,000"
+  },
+  {
+    "subject": "Charging Stations",
+    "relation": "TARGET_YEAR",
+    "object": "2030"
+  },
+  {
+    "subject": "Deloitte Survey",
+    "relation": "SURVEY_RESULT",
+    "object": "68%"
+  },
+  {
+    "subject": "Deloitte Survey",
+    "relation": "SURVEY_SIZE",
+    "object": "1,500"
+  },
+  {
+    "subject": "NIO",
+    "relation": "GROWTH_RATE",
+    "object": "1,084%"
+  },
+  {
+    "subject": "Workhorse",
+    "relation": "GROWTH_RATE",
+    "object": "1,000%"
+  },
+  {
+    "subject": "Hyliion",
+    "relation": "GROWTH_RATE",
+    "object": "over 400%"
+  },
+  {
+    "subject": "Hyliion",
+    "relation": "VALUE_LOSS",
+    "object": "over 66%"
+  },
+  {
+    "subject": "1999",
+    "relation": "MARKET_SHARE",
+    "object": "697%"
+  },
+  {
+    "subject": "Snowflake",
+    "relation": "GROWTH_RATE",
+    "object": "112%"
+  },
+  {
+    "subject": "Doordash",
+    "relation": "GROWTH_RATE",
+    "object": "78%"
+  },
+  {
+    "subject": "Airbnb",
+    "relation": "GROWTH_RATE",
+    "object": "115%"
+  },
+  {
+    "subject": "US",
+    "relation": "STARTING_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "US",
+    "relation": "GRANT_AMOUNT",
+    "object": "US$200m"
+  },
+  {
+    "subject": "Microvast",
+    "relation": "INVOLVED_IN",
+    "object": "US battery-making"
+  },
+  {
+    "subject": "Investor sentiment",
+    "relation": "DECLINED_FROM",
+    "object": "10 to 6"
+  },
+  {
+    "subject": "Investor sentiment",
+    "relation": "POSITIONING",
+    "object": "lowest in many years"
+  },
+  {
+    "subject": "EV sales",
+    "relation": "SENTIMENT",
+    "object": "bearish"
+  },
+  {
+    "subject": "Cell price",
+    "relation": "ALL_TIME_LOW",
+    "object": "$107/kWh"
+  },
+  {
+    "subject": "Pack prices",
+    "relation": "HIT",
+    "object": "$32/kWh"
+  },
+  {
+    "subject": "Battery prices",
+    "relation": "RESUMED_DOWNWARD_DIRECTION",
+    "object": "2023"
+  },
+  {
+    "subject": "Battery prices",
+    "relation": "ROSE_FIRST_TIME",
+    "object": "2022"
+  },
+  {
+    "subject": "Battery prices",
+    "relation": "DURATION",
+    "object": "at least ten years"
+  },
+  {
+    "subject": "US EV Market",
+    "relation": "MARKET_SIZE",
+    "object": "1 million"
+  },
+  {
+    "subject": "US EV Market",
+    "relation": "MARKET_SIZE",
+    "object": "1.2 million"
+  },
+  {
+    "subject": "US EV Market",
+    "relation": "MARKET_SHARE",
+    "object": "7.6%"
+  },
+  {
+    "subject": "US EV Market",
+    "relation": "GROWTH_RATE",
+    "object": "up from 5.9%"
+  },
+  {
+    "subject": "Q4 2023",
+    "relation": "GROWTH_RATE",
+    "object": "52%"
+  },
+  {
+    "subject": "Q4 2023",
+    "relation": "SALES_VOLUME",
+    "object": "317,168"
+  },
+  {
+    "subject": "Q4 2023",
+    "relation": "MARKET_SHARE",
+    "object": "8.1%"
+  },
+  {
+    "subject": "2023",
+    "relation": "SALES_VOLUME",
+    "object": "1.2 million"
+  },
+  {
+    "subject": "US EV Market",
+    "relation": "MARKET_SIZE",
+    "object": "1 Million Sales"
+  },
+  {
+    "subject": "Americans",
+    "relation": "PURCHASED",
+    "object": "317,168 EVs"
+  },
+  {
+    "subject": "EVs",
+    "relation": "MARKET_SHARE",
+    "object": "8.1%"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "7.6%"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "5.9%"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "3.2%"
+  },
+  {
+    "subject": "Cox Automotive",
+    "relation": "FORECAST",
+    "object": "surpass 10% mark"
+  },
+  {
+    "subject": "Hybrids",
+    "relation": "TIME_TO_10_PERCENT_MARKET_SHARE",
+    "object": "25 years"
+  },
+  {
+    "subject": "EVs",
+    "relation": "TIME_TO_10_PERCENT_MARKET_SHARE",
+    "object": "12 years"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "PRICE_REDUCTIONS",
+    "object": "aggressive"
+  },
+  {
+    "subject": "January 2023",
+    "relation": "AVERAGE_TRANSACTION_PRICE",
+    "object": "USD 60,978"
+  },
+  {
+    "subject": "EV incentives",
+    "relation": "GROWTH_RATE",
+    "object": "more than triple"
+  },
+  {
+    "subject": "Hyundai Ioniq5",
+    "relation": "TAX_CREDIT",
+    "object": "less than 3%"
+  },
+  {
+    "subject": "January 2024",
+    "relation": "TAX_CREDIT",
+    "object": "surpassed 18%"
+  },
+  {
+    "subject": "Tesla Model Y",
+    "relation": "PRICE_DECREASE",
+    "object": "more than 21%"
+  },
+  {
+    "subject": "Tesla Model Y",
+    "relation": "PRICE_START",
+    "object": "USD 63,000"
+  },
+  {
+    "subject": "Tesla Model Y",
+    "relation": "PRICE_END",
+    "object": "less than USD 50,000"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE",
+    "object": "55%"
+  },
+  {
+    "subject": "2023",
+    "relation": "YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Donald Trump",
+    "relation": "DECLARED_ON",
+    "object": "Jan. 20"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "CLOSED_AT",
+    "object": "126,100 won"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "FELL_BY",
+    "object": "11,900 won"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "PERCENTAGE_FALL",
+    "object": "-8.62%"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "FELL_MORE_THAN",
+    "object": "10%"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "CLOSED_AT_PRICE",
+    "object": "126,100 won"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "PRICE_CHANGE",
+    "object": "-11,900 won"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "PERCENTAGE_CHANGE",
+    "object": "-8.62%"
+  },
+  {
+    "subject": "EcoPro BM",
+    "relation": "FALL_MORE_THAN",
+    "object": "10%"
+  },
+  {
+    "subject": "Market",
+    "relation": "SURGE",
+    "object": "6%"
+  },
+  {
+    "subject": "EcoPro",
+    "relation": "PERCENTAGE_CHANGE",
+    "object": "-5.87%"
+  },
+  {
+    "subject": "Enchem",
+    "relation": "PERCENTAGE_CHANGE",
+    "object": "-8.39%"
+  },
+  {
+    "subject": "LG Energy Solution",
+    "relation": "PERCENTAGE_CHANGE",
+    "object": "-4.32%"
+  },
+  {
+    "subject": "Trump",
+    "relation": "SIGNAL_TO_WITHDRAW",
+    "object": "subsidies and tax credits for electric vehicle purchases"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "PROMOTED",
+    "object": "subsidies and tax credits for electric vehicle purchases"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "PROMOTES",
+    "object": "electric vehicle purchases"
+  },
+  {
+    "subject": "Donald Trump",
+    "relation": "PREVIOUS_TERM",
+    "object": "President"
+  },
+  {
+    "subject": "Donald Trump",
+    "relation": "POLICY",
+    "object": "deregulatory agenda"
+  },
+  {
+    "subject": "Donald Trump",
+    "relation": "WITHDREW_FROM",
+    "object": "Paris Climate Agreement"
+  },
+  {
+    "subject": "Green New Deal",
+    "relation": "SUPPORTED_BY",
+    "object": "Biden administration"
+  },
+  {
+    "subject": "Green New Deal",
+    "relation": "AIMS_TO_ADDRESS",
+    "object": "climate change and economic inequality"
+  },
+  {
+    "subject": "electric vehicle market",
+    "relation": "GROWTH_RATE",
+    "object": "rapidly"
+  },
+  {
+    "subject": "electric vehicle market",
+    "relation": "BENEFITED_FROM",
+    "object": "government incentives"
+  },
+  {
+    "subject": "government incentives",
+    "relation": "INCLUDE",
+    "object": "tax credits"
+  },
+  {
+    "subject": "Electric Vehicle (EV) market",
+    "relation": "EXPECTED_GROWTH_YEAR",
+    "object": "2022"
+  },
+  {
+    "subject": "EV sales",
+    "relation": "GLOBAL_SALES_2021",
+    "object": "6.3M vehicles"
+  },
+  {
+    "subject": "EV sales",
+    "relation": "GROWTH_COMPARED_TO_2020",
+    "object": "almost twice"
+  },
+  {
+    "subject": "China",
+    "relation": "GROWTH_RATE",
+    "object": "154%"
+  },
+  {
+    "subject": "China",
+    "relation": "VEHICLES_SOLD_2021",
+    "object": "3M vehicles"
+  },
+  {
+    "subject": "China",
+    "relation": "VEHICLES_SOLD_2020",
+    "object": "1.4M vehicles"
+  },
+  {
+    "subject": "Germany",
+    "relation": "MARKET_SHARE_2021",
+    "object": "26%"
+  },
+  {
+    "subject": "US electric vehicle market",
+    "relation": "VEHICLES_SOLD",
+    "object": "3 million"
+  },
+  {
+    "subject": "US electric vehicle market",
+    "relation": "VEHICLES_SOLD_PREVIOUS_YEAR",
+    "object": "1.4 million"
+  },
+  {
+    "subject": "Germany",
+    "relation": "MARKET_SHARE",
+    "object": "26%"
+  },
+  {
+    "subject": "EV production",
+    "relation": "TARGET_PERIOD",
+    "object": "next 10 years"
+  },
+  {
+    "subject": "US",
+    "relation": "BILLIONS_IN_INCENTIVES",
+    "object": "billions"
+  },
+  {
+    "subject": "IDTechEx",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2031"
+  },
+  {
+    "subject": "kWh demand from BEV & PHEV cars",
+    "relation": "GROWTH_RATE",
+    "object": "21.8 times greater than that of 2020"
+  },
+  {
+    "subject": "silicon and silicon oxides",
+    "relation": "CAPACITY",
+    "object": "10x greater than graphite"
+  },
+  {
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "PREVIOUS_SURVEY_RESULT_Q2",
+    "object": "42"
+  },
+  {
+    "subject": "Cox Automotive Dealer Sentiment Index",
+    "relation": "PREVIOUS_SURVEY_RESULT_LAST_YEAR",
+    "object": "45"
+  },
+  {
+    "subject": "Independent dealers",
+    "relation": "SURVEY_RESULT",
+    "object": "37"
+  },
+  {
+    "subject": "U.S. auto dealers",
+    "relation": "SURVEY_RESULT",
+    "object": "37"
+  },
+  {
+    "subject": "U.S. auto dealers",
+    "relation": "MARKET_OUTLOOK_INDEX",
+    "object": "42"
+  },
+  {
+    "subject": "Franchised dealers",
+    "relation": "MARKET_OUTLOOK_SCORE",
+    "object": "49"
+  },
+  {
+    "subject": "Independent dealers",
+    "relation": "MARKET_OUTLOOK_SCORE",
+    "object": "39"
+  },
+  {
+    "subject": "Cost index",
+    "relation": "RECORD_HIGH",
+    "object": "77"
+  },
+  {
+    "subject": "Used-vehicle sales index",
+    "relation": "VALUE",
+    "object": "43"
+  },
+  {
+    "subject": "Japan",
+    "relation": "INVESTMENT",
+    "object": "$2.4 billion"
+  },
+  {
+    "subject": "Japan",
+    "relation": "SUBSIDIES_FOR_EV",
+    "object": "$2.4 billion"
+  },
+  {
+    "subject": "Japan",
+    "relation": "SUBSIDY_AMOUNT",
+    "object": "$2.4 billion"
+  },
+  {
+    "subject": "used-vehicle sales index",
+    "relation": "INDEX_VALUE",
+    "object": "43"
+  },
+  {
+    "subject": "Q3",
+    "relation": "SENTIMENT_CHANGE",
+    "object": "slight uptick"
+  },
+  {
+    "subject": "2019",
+    "relation": "TRACKED_YEAR",
+    "object": "2019"
+  },
+  {
+    "subject": "dealers",
+    "relation": "POLITICAL_CLIMATE_CONCERNS",
+    "object": "44%"
+  },
+  {
+    "subject": "US electric vehicle market",
+    "relation": "GROWTH_RATE",
+    "object": "51% in the first half of 2023"
+  },
+  {
+    "subject": "US electric vehicle market",
+    "relation": "GROWTH_RATE",
+    "object": "71% in the same timeframe last year"
+  },
+  {
+    "subject": "EV sales in the US",
+    "relation": "SALES_IN_YEAR",
+    "object": "65,000 in 2017"
+  },
+  {
+    "subject": "EV sales in the US",
+    "relation": "SALES_IN_YEAR",
+    "object": "800,000 in 2022"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "2016",
+    "relation": "START_YEAR",
+    "object": "Sales growth of EVs in the US"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "STOCK_VALUE_DROP",
+    "object": "$138bn"
+  },
+  {
+    "subject": "General Motors",
+    "relation": "PHASING_OUT_INTERNAL_COMBUSTION_ENGINES_YEAR",
+    "object": "2035"
+  },
+  {
+    "subject": "General Motors",
+    "relation": "PRODUCTION_GOAL",
+    "object": "400,000 EVs"
+  },
+  {
+    "subject": "General Motors",
+    "relation": "PRODUCTION_GOAL_DEADLINE",
+    "object": "mid-2024"
+  },
+  {
+    "subject": "Ford",
+    "relation": "DELAYED_INVESTMENT",
+    "object": "billions of dollars"
+  },
+  {
+    "subject": "2022",
+    "relation": "GROWTH_RATE",
+    "object": "71%"
+  },
+  {
+    "subject": "U.S. electric vehicle sales",
+    "relation": "GROWTH_RATE",
+    "object": "58%"
+  },
+  {
+    "subject": "U.S. electric vehicle sales",
+    "relation": "MARKET_SIZE",
+    "object": "1 million"
+  },
+  {
+    "subject": "Q1 2021",
+    "relation": "EV_SALES",
+    "object": "125,000"
+  },
+  {
+    "subject": "Q4 2021",
+    "relation": "EV_SALES",
+    "object": "185,000"
+  },
+  {
+    "subject": "Q1 2023",
+    "relation": "EV_SALES",
+    "object": "300,000"
+  },
+  {
+    "subject": "Q3 2023",
+    "relation": "EV_SALES",
+    "object": "375,000"
+  },
+  {
+    "subject": "2023",
+    "relation": "FIRST_ANNUAL_SALES_ABOVE",
+    "object": "1 million"
+  },
+  {
+    "subject": "2022",
+    "relation": "COMPARATIVE_PERIOD",
+    "object": "same period"
+  },
+  {
+    "subject": "Q1 2021",
+    "relation": "MARKET_SHARE",
+    "object": "3%"
+  },
+  {
+    "subject": "2022",
+    "relation": "MARKET_SHARE",
+    "object": "7%"
+  },
+  {
+    "subject": "Q3 2023",
+    "relation": "MARKET_SHARE",
+    "object": "10%"
+  },
+  {
+    "subject": "hybrids",
+    "relation": "TIME_TO_10_PERCENT_MARKET_SHARE",
+    "object": "25 years"
+  },
+  {
+    "subject": "Ford",
+    "relation": "PRODUCTION_SCALE_BACK",
+    "object": "near-term"
+  },
+  {
+    "subject": "General Motors",
+    "relation": "PRODUCTION_SCALE_BACK",
+    "object": "near-term"
+  },
+  {
+    "subject": "Hyundai",
+    "relation": "REPORTED_DEMAND",
+    "object": "strong U.S. EV demand"
+  },
+  {
+    "subject": "Kia",
+    "relation": "REPORTED_DEMAND",
+    "object": "strong U.S. EV demand"
+  },
+  {
+    "subject": "Volvo",
+    "relation": "CEO_STATEMENT",
+    "object": "no slowdown of EV orders"
+  },
+  {
+    "subject": "Volvo",
+    "relation": "EXPECTATION",
+    "object": "EVs to keep driving sales"
+  },
+  {
+    "subject": "McKinsey",
+    "relation": "SURVEY_RESULT",
+    "object": "intent to purchase EVs is increasing"
+  },
+  {
+    "subject": "J.D. Power",
+    "relation": "SURVEY_RESULT",
+    "object": "intent to purchase EVs is increasing"
+  },
+  {
+    "subject": "US auto sector",
+    "relation": "EMPLOYMENT",
+    "object": "1 million people"
+  },
+  {
+    "subject": "US auto sector",
+    "relation": "IMPACT_ON_ECONOMY",
+    "object": "barometer for overall health of the U.S. economy"
+  },
+  {
+    "subject": "US auto production",
+    "relation": "IMPORTANCE",
+    "object": "key component of overall manufacturing activity"
+  },
+  {
+    "subject": "auto sector",
+    "relation": "EMPLOYMENT",
+    "object": "1 million people"
+  },
+  {
+    "subject": "vehicle purchases",
+    "relation": "CONTRIBUTES_TO_GDP",
+    "object": "3%"
+  },
+  {
+    "subject": "US electric vehicle market",
+    "relation": "DISPLACES_OIL",
+    "object": "virtually eliminate all oil imports"
+  },
+  {
+    "subject": "US oil imports",
+    "relation": "PERCENTAGE",
+    "object": "two-thirds"
+  },
+  {
+    "subject": "electric cars",
+    "relation": "EMBRACES",
+    "object": "American energy independence"
+  },
+  {
+    "subject": "renewable energy",
+    "relation": "GENERATES",
+    "object": "more than 35,000 gallons of gasoline every hour"
+  },
+  {
+    "subject": "Manhattan",
+    "relation": "POWERED_BY",
+    "object": "5-inch underground cables"
+  },
+  {
+    "subject": "passenger EVs",
+    "relation": "MARKET_SIZE",
+    "object": "$388 billion"
+  },
+  {
+    "subject": "passenger EVs",
+    "relation": "GROWTH_RATE",
+    "object": "53%"
+  },
+  {
+    "subject": "EVs",
+    "relation": "MARKET_SHARE",
+    "object": "23%"
+  },
+  {
+    "subject": "EVs",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2025"
+  },
+  {
+    "subject": "BloombergNEF",
+    "relation": "PUBLISHED_BY",
+    "object": "report"
+  },
+  {
+    "subject": "US car owners",
+    "relation": "PRIMARILY_DRIVE_GASOLINE_CARS",
+    "object": "87%"
+  },
+  {
+    "subject": "US car owners",
+    "relation": "USING_HYBRID_CARS",
+    "object": "6%"
+  },
+  {
+    "subject": "US car owners",
+    "relation": "DRIVING_DIESEL_CARS",
+    "object": "4%"
+  },
+  {
+    "subject": "US car owners",
+    "relation": "DRIVING_EVS",
+    "object": "3%"
+  },
+  {
+    "subject": "Germany car owners",
+    "relation": "PRIMARILY_DRIVE_GASOLINE_CARS",
+    "object": "66%"
+  },
+  {
+    "subject": "Germany car owners",
+    "relation": "DRIVING_DIESEL_CARS",
+    "object": "23%"
+  },
+  {
+    "subject": "UK car owners",
+    "relation": "PRIMARILY_DRIVE_GASOLINE_CARS",
+    "object": "56%"
+  },
+  {
+    "subject": "UK car owners",
+    "relation": "DRIVING_DIESEL_CARS",
+    "object": "29%"
+  },
+  {
+    "subject": "Singapore car owners",
+    "relation": "PRIMARILY_DRIVE_GASOLINE_CARS",
+    "object": "53%"
+  },
+  {
+    "subject": "Singapore car owners",
+    "relation": "USING_HYBRID_CARS",
+    "object": "19%"
+  },
+  {
+    "subject": "Singapore car owners",
+    "relation": "USING_EVS",
+    "object": "18%"
+  },
+  {
+    "subject": "Singapore",
+    "relation": "CHARGER_TARGET",
+    "object": "44%"
+  },
+  {
+    "subject": "Singapore",
+    "relation": "BRAND_REPUTATION",
+    "object": "41%"
+  },
+  {
+    "subject": "Singapore",
+    "relation": "ENVIRONMENTAL_IMPACT",
+    "object": "41%"
+  },
+  {
+    "subject": "Singapore",
+    "relation": "TOP_CHOICE_FOR_NEXT_CAR",
+    "object": "39%"
+  },
+  {
+    "subject": "UK",
+    "relation": "TOP_CHOICE_FOR_NEXT_CAR",
+    "object": "22%"
+  },
+  {
+    "subject": "Germany",
+    "relation": "TOP_CHOICE_FOR_NEXT_CAR",
+    "object": "22%"
+  },
+  {
+    "subject": "US",
+    "relation": "TOP_CHOICE_FOR_NEXT_CAR",
+    "object": "17%"
+  },
+  {
+    "subject": "Potential EV Buyers",
+    "relation": "EXPRESS_CONCERNS",
+    "object": "60%"
+  },
+  {
+    "subject": "Goldman Sachs",
+    "relation": "LEAD_AUTHOR_OF",
+    "object": "Why are EV sales slowing?"
+  },
+  {
+    "subject": "Kota Yuzawa",
+    "relation": "CEO_OF",
+    "object": "Goldman Sachs Research"
+  },
+  {
+    "subject": "EVs",
+    "relation": "GROWTH_RATE",
+    "object": "gradually grow"
+  },
+  {
+    "subject": "UK",
+    "relation": "USED_EV_PRICE_CHANGE",
+    "object": "fallen sharply"
+  },
+  {
+    "subject": "EV sales",
+    "relation": "YEAR_OVER_YEAR_DECLINE",
+    "object": "2024"
+  },
+  {
+    "subject": "UK",
+    "relation": "USED_EV_PRICE_TREND",
+    "object": "Fallen sharply"
+  },
+  {
+    "subject": "Elections",
+    "relation": "YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Rapid charging station infrastructure",
+    "relation": "ISSUE",
+    "object": "Tangible problem"
+  },
+  {
+    "subject": "China",
+    "relation": "EXCESS_PRODUCTION_CAPACITY",
+    "object": "5 million vehicles"
+  },
+  {
+    "subject": "EV costs",
+    "relation": "REALIZED_BY",
+    "object": "2030"
+  },
+  {
+    "subject": "utility-scale solar, wind, and battery storage projects",
+    "relation": "TAX_REVENUE",
+    "object": "$20 billion"
+  },
+  {
+    "subject": "utility-scale solar, wind, and battery storage projects",
+    "relation": "PAYMENT_TO_LANDOWNERS",
+    "object": "$29.5 billion"
+  },
+  {
+    "subject": "Solar Energy Industries Association",
+    "relation": "FOUNDED_BY",
+    "object": "1974"
+  },
+  {
+    "subject": "2023",
+    "relation": "MARKET_SIZE",
+    "object": "more than double the capacity deployed in 2022"
+  },
+  {
+    "subject": "1.1 GW",
+    "relation": "INSTALLED_IN",
+    "object": "Q3 2024"
+  },
+  {
+    "subject": "4%",
+    "relation": "DECLINE",
+    "object": "quarter-over-quarter"
+  },
+  {
+    "subject": "California",
+    "relation": "CHARGER_TARGET",
+    "object": "old, more favorable rules"
+  },
+  {
+    "subject": "Spring 2023",
+    "relation": "EXPIRATION_OF_RULES",
+    "object": "California’s Net Metering rules"
+  },
+  {
+    "subject": "2024",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "down year for residential solar"
+  },
+  {
+    "subject": "2021",
+    "relation": "LOWEST_INSTALLATIONS_SINCE",
+    "object": "new installations"
+  },
+  {
+    "subject": "second half of the 2020s",
+    "relation": "GROWTH_RATE",
+    "object": "emergent state markets"
+  },
+  {
+    "subject": "China",
+    "relation": "MANUFACTURED_IN",
+    "object": "1985"
+  },
+  {
+    "subject": "China",
+    "relation": "MANUFACTURED_IN",
+    "object": "2024"
+  },
+  {
+    "subject": "China",
+    "relation": "MANUFACTURED_IN",
+    "object": "2030"
+  },
+  {
+    "subject": "China",
+    "relation": "MARKET_SHARE",
+    "object": "21%"
+  },
+  {
+    "subject": "China",
+    "relation": "MARKET_SHARE",
+    "object": "one-third"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_UNITS_PRODUCED",
+    "object": "10 million"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_UNITS_PRODUCED",
+    "object": "8.9 million"
+  },
+  {
+    "subject": "China",
+    "relation": "GLOBAL_EV_PRODUCTION_SHARE",
+    "object": "62%"
+  },
+  {
+    "subject": "China",
+    "relation": "NUMBER_OF_EV_MANUFACTURERS",
+    "object": "200"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_UNITS_PRODUCED_YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_UNITS_PRODUCED_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Pew Research Center",
+    "relation": "SURVEY_RESULT",
+    "object": "38%"
+  },
+  {
+    "subject": "Pew Research Center",
+    "relation": "SURVEY_SIZE",
+    "object": "10,329"
+  },
+  {
+    "subject": "Pew Research Center",
+    "relation": "SURVEY_PERIOD",
+    "object": "May 30 to June 4, 2023"
+  },
+  {
+    "subject": "U.S. adults",
+    "relation": "NOT_LIKELY_TO_CONSIDER_PURCHASING_EV",
+    "object": "50%"
+  },
+  {
+    "subject": "U.S. adults",
+    "relation": "DO_NOT_PLAN_TO_PURCHASE_VEHICLE",
+    "object": "13%"
+  },
+  {
+    "subject": "interest_in_purchasing_EV",
+    "relation": "DECREASE",
+    "object": "4 percentage points"
+  },
+  {
+    "subject": "electric_vehicles_share_of_new_car_sales",
+    "relation": "CURRENT_SHARE",
+    "object": "8.5%"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "ANNOUNCED_MEASURES",
+    "object": "tax credits for EV buyers"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "ANNOUNCED_MEASURES",
+    "object": "emissions limits for car manufacturers"
+  },
+  {
+    "subject": "Americans",
+    "relation": "CONFIDENCE_IN_EV_INFRASTRUCTURE",
+    "object": "30%"
+  },
+  {
+    "subject": "Americans",
+    "relation": "NOT_CONFIDENT_IN_EV_INFRASTRUCTURE",
+    "object": "53%"
+  },
+  {
+    "subject": "Republicans and GOP leaners",
+    "relation": "NOT_CONFIDENT_IN_EV_INFRASTRUCTURE",
+    "object": "74%"
+  },
+  {
+    "subject": "Democrats and Democratic leaners",
+    "relation": "NOT_CONFIDENT_IN_EV_INFRASTRUCTURE",
+    "object": "34%"
+  },
+  {
+    "subject": "Americans who are confident",
+    "relation": "LIKELIHOOD_TO_CONSIDER_PURCHASING_EV",
+    "object": "68%"
+  },
+  {
+    "subject": "Americans who are not confident",
+    "relation": "LIKELIHOOD_TO_CONSIDER_PURCHASING_EV",
+    "object": "19%"
+  },
+  {
+    "subject": "Infrastructure Investment and Jobs Act",
+    "relation": "FUNDING_AMOUNT",
+    "object": "$7.5 billion"
+  },
+  {
+    "subject": "Inflation Reduction Act",
+    "relation": "PROVIDED_SUPPORT",
+    "object": "EV charging infrastructure"
+  },
+  {
+    "subject": "Infrastructure Investment and Jobs Act",
+    "relation": "FUNDS",
+    "object": "$7.5 billion"
+  },
+  {
+    "subject": "Inflation Reduction Act",
+    "relation": "PROVIDES_TAX_CREDITS_FOR",
+    "object": "new and used electric passenger vehicles"
+  },
+  {
+    "subject": "Inflation Reduction Act",
+    "relation": "PROVIDES_TAX_CREDITS_FOR",
+    "object": "commercial vehicles"
+  },
+  {
+    "subject": "California",
+    "relation": "BAN_SALE_OF",
+    "object": "new internal combustion engine-powered vehicles"
+  },
+  {
+    "subject": "California",
+    "relation": "BAN_EFFECTIVE_YEAR",
+    "object": "2035"
+  },
+  {
+    "subject": "EV charging market",
+    "relation": "EXPECTED_GROWTH",
+    "object": "nearly tenfold"
+  },
+  {
+    "subject": "California",
+    "relation": "TAX_CREDIT",
+    "object": "$7 million"
+  },
+  {
+    "subject": "PSE&G",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "PwC",
+    "relation": "SURVEY_RESULT",
+    "object": "roughly one"
+  },
+  {
+    "subject": "S&P 500 energy sector",
+    "relation": "FELL_BY",
+    "object": "10%"
+  },
+  {
+    "subject": "S&P 500 energy sector",
+    "relation": "GROWTH_RATE",
+    "object": "20% per year"
+  },
+  {
+    "subject": "S&P 500 energy sector",
+    "relation": "RETURN",
+    "object": "5.72%"
+  },
+  {
+    "subject": "S&P 500",
+    "relation": "GROWTH_RATE",
+    "object": "25% in 2024"
+  },
+  {
+    "subject": "Energy sector",
+    "relation": "GROWTH_RATE",
+    "object": "12.14% per year"
+  },
+  {
+    "subject": "Energy sector",
+    "relation": "PERIOD",
+    "object": "three-year period ending December 2024"
+  },
+  {
+    "subject": "Energy sector",
+    "relation": "PERIOD",
+    "object": "five-year period"
+  },
+  {
+    "subject": "Energy sector stocks",
+    "relation": "GAINED",
+    "object": "6% in November 2024"
+  },
+  {
+    "subject": "Energy sector stocks",
+    "relation": "RETREATED_BY",
+    "object": "10% in December 2024"
+  },
+  {
+    "subject": "S&P 500 energy sector",
+    "relation": "PEAK_RETURN",
+    "object": "20%"
+  },
+  {
+    "subject": "energy sector",
+    "relation": "GROWTH_RATE",
+    "object": "20%"
+  },
+  {
+    "subject": "energy sector",
+    "relation": "GROWTH_RATE",
+    "object": "12.14%"
+  },
+  {
+    "subject": "three-year period",
+    "relation": "ENDING_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "previous five years",
+    "relation": "ENDING_YEAR",
+    "object": "2019"
+  },
+  {
+    "subject": "Extreme E",
+    "relation": "PUBLISHED_BY",
+    "object": "EY"
+  },
+  {
+    "subject": "Season 3 report",
+    "relation": "SURVEY_RESULT",
+    "object": "8.2%"
+  },
+  {
+    "subject": "US",
+    "relation": "GHG_EMISSIONS_PERCENTAGE",
+    "object": "23%"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "GHG_EMISSIONS_REDUCTION_TARGET",
+    "object": "50%–52% by 2030 against 2005 levels"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "CARBON_NEUTRALITY_TARGET_YEAR",
+    "object": "2050"
+  },
+  {
+    "subject": "Chinese-made autos",
+    "relation": "MARKET_SHARE",
+    "object": "13%"
+  },
+  {
+    "subject": "Chinese-made autos",
+    "relation": "MARKET_SHARE",
+    "object": "27% in 2030"
+  },
+  {
+    "subject": "EVs",
+    "relation": "MARKET_SHARE",
+    "object": "60–70%"
+  },
+  {
+    "subject": "Chengdu-Chongqing Economic Circle",
+    "relation": "CRITICAL_FOR",
+    "object": "China’s ambitions of achieving energy independence"
+  },
+  {
+    "subject": "U.S. 10-year yield",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2025"
+  },
+  {
+    "subject": "U.S. 10-year yield",
+    "relation": "MARKET_SIZE",
+    "object": "4.75%"
+  },
+  {
+    "subject": "Earnings growth",
+    "relation": "ANNUAL_CHANGE_IN_EARNINGS_PER_SHARE",
+    "object": "As of 8 November 2024"
+  },
+  {
+    "subject": "Auto sales",
+    "relation": "SOFTENED_AS_OF",
+    "object": "30 September 2024"
+  },
+  {
+    "subject": "Interest rates",
+    "relation": "JUMPED_AS_OF",
+    "object": "30 September 2024"
+  },
+  {
+    "subject": "Spending slump in China",
+    "relation": "SPELLS_UNCERTAINTY_FOR",
+    "object": "luxury goods"
+  },
+  {
+    "subject": "Relative return",
+    "relation": "REPRESENTED_BY",
+    "object": "difference in annualised cumulative total return between the S&P Global Luxury Index and the MSCI AC World Index"
+  },
+  {
+    "subject": "S&P Global Luxury Index",
+    "relation": "STARTING_DATE",
+    "object": "31 January 2019"
+  },
+  {
+    "subject": "MSCI AC World Index",
+    "relation": "STARTING_DATE",
+    "object": "31 January 2019"
+  },
+  {
+    "subject": "Relative return",
+    "relation": "AS_OF",
+    "object": "30 September 2024"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "PEAK_YEAR",
+    "object": "2020"
+  },
+  {
+    "subject": "BYD",
+    "relation": "SANCTIONS_IMPOSED_BY",
+    "object": "Biden administration"
+  },
+  {
+    "subject": "BYD",
+    "relation": "SANCTIONS_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Ford",
+    "relation": "INVESTMENT_LOSS",
+    "object": "$4.7 billion"
+  },
+  {
+    "subject": "Ford",
+    "relation": "LOSS_YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Ford",
+    "relation": "INVESTMENT_LOSS",
+    "object": "$4.7 billion in 2023"
+  },
+  {
+    "subject": "Ford",
+    "relation": "SECOND_QUARTER_LOSS",
+    "object": "$1.1 billion in the second quarter of 2024"
+  },
+  {
+    "subject": "Ford",
+    "relation": "EV_SALES",
+    "object": "43,000 EVs in the first half of 2024"
+  },
+  {
+    "subject": "Ford",
+    "relation": "GROWTH_RATE",
+    "object": "71% over the same period a year earlier"
+  },
+  {
+    "subject": "NIO",
+    "relation": "DELIVERIES",
+    "object": "57,373 vehicles in the second quarter of 2024"
+  },
+  {
+    "subject": "NIO",
+    "relation": "NEW_CAR_PRICE_REDUCTION",
+    "object": "10% cheaper than Tesla's Model Y"
+  },
+  {
+    "subject": "U.S. Economy",
+    "relation": "PROTECTS_FROM_RECESSIONS",
+    "object": "EV Transition"
+  },
+  {
+    "subject": "Gasoline Prices",
+    "relation": "NATIONAL_AVERAGE_PRICE",
+    "object": "$5 a gallon"
+  },
+  {
+    "subject": "U.S.",
+    "relation": "AVOIDED_RECESSION_YEAR",
+    "object": "2022"
+  },
+  {
+    "subject": "U.S. economy",
+    "relation": "ENERGY_INTENSITY_DROP",
+    "object": "60%"
+  },
+  {
+    "subject": "U.S. oil production",
+    "relation": "EQUALS_CONSUMPTION",
+    "object": "true"
+  },
+  {
+    "subject": "U.S.",
+    "relation": "NET_EXPORTER_STATUS",
+    "object": "true"
+  },
+  {
+    "subject": "U.S. oil and oil products",
+    "relation": "NET_EXPORTER_IN_DOLLAR_TERMS",
+    "object": "true"
+  },
+  {
+    "subject": "U.S. recessions",
+    "relation": "OCCURRED_YEARS",
+    "object": "1990-1991, 2001"
+  },
+  {
+    "subject": "Great Recession",
+    "relation": "OCCURRED_YEAR",
+    "object": "2008"
+  },
+  {
+    "subject": "oil prices",
+    "relation": "IMPACT_ON_ECONOMY",
+    "object": "heavy"
+  },
+  {
+    "subject": "U.S. vehicles",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2040"
+  },
+  {
+    "subject": "U.S. vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "50%"
+  },
+  {
+    "subject": "U.S. gasoline and diesel use",
+    "relation": "GROWTH_RATE",
+    "object": "50% decrease"
+  },
+  {
+    "subject": "U.S. petroleum products use",
+    "relation": "GROWTH_RATE",
+    "object": "33% decrease"
+  },
+  {
+    "subject": "U.S. oil production",
+    "relation": "CURRENT_LEVELS",
+    "object": "constant"
+  },
+  {
+    "subject": "U.S. crude oil production",
+    "relation": "CURRENT_CONSUMPTION",
+    "object": "roughly equal"
+  },
+  {
+    "subject": "U.S.",
+    "relation": "NET_EXPORTER_STATUS",
+    "object": "large net oil exporter"
+  },
+  {
+    "subject": "U.S.",
+    "relation": "CURRENT_NET_EXPORTER",
+    "object": "net exporter of oil and oil products"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_SOLD_ANNUALLY",
+    "object": "1.3 million to 6.8 million"
+  },
+  {
+    "subject": "2022",
+    "relation": "EIGHTH_CONSECUTIVE_YEAR",
+    "object": "China was the world’s largest market for EVs"
+  },
+  {
+    "subject": "US",
+    "relation": "EV_SOLD_IN_2022",
+    "object": "800,000"
+  },
+  {
+    "subject": "US",
+    "relation": "EV_SALES",
+    "object": "800,000"
+  },
+  {
+    "subject": "2022",
+    "relation": "YEAR",
+    "object": "800,000 EVs sold"
+  },
+  {
+    "subject": "China",
+    "relation": "EV_SECTOR_DOMINANCE",
+    "object": "world's leaders in climate policy"
+  },
+  {
+    "subject": "Sino Auto Insights",
+    "relation": "LEAD_AUTHOR_OF",
+    "object": "transportation consulting"
+  },
+  {
+    "subject": "government",
+    "relation": "ROLE_IN_EV_SECTOR",
+    "object": "propping up supply and demand"
+  },
+  {
+    "subject": "government",
+    "relation": "SUPPORT_TYPE",
+    "object": "subsidies"
+  },
+  {
+    "subject": "government",
+    "relation": "SUPPORT_TYPE",
+    "object": "tax breaks"
+  },
+  {
+    "subject": "government",
+    "relation": "SUPPORT_TYPE",
+    "object": "procurement contracts"
+  },
+  {
+    "subject": "government",
+    "relation": "SUPPORT_TYPE",
+    "object": "policy incentives"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "DELIVERED_IN",
+    "object": "2022"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MANUFACTURED_IN",
+    "object": "Shanghai Gigafactory"
+  },
+  {
+    "subject": "Battery cells",
+    "relation": "COMPOSITION_PERCENTAGE",
+    "object": "40%"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "PUBLISHED_BY",
+    "object": "Bloomberg"
+  },
+  {
+    "subject": "BYD",
+    "relation": "COMPETITOR_OF",
+    "object": "Tesla"
+  },
+  {
+    "subject": "California Management Review",
+    "relation": "PUBLISHED_BY",
+    "object": "UC Berkeley"
+  },
+  {
+    "subject": "October 2011",
+    "relation": "INTERVIEW_DATE",
+    "object": "Elon Musk"
+  },
+  {
+    "subject": "January 2023",
+    "relation": "INTERVIEW_DATE",
+    "object": "Elon Musk"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "RIVAL_OF",
+    "object": "BYD"
+  },
+  {
+    "subject": "Electric Vehicles",
+    "relation": "REDUCES",
+    "object": "greenhouse gas emissions"
+  },
+  {
+    "subject": "Electric Vehicles",
+    "relation": "REDUCES",
+    "object": "dependency on fossil fuels"
+  },
+  {
+    "subject": "electrified vehicle market",
+    "relation": "MARKET_SHARE",
+    "object": "37%"
+  },
+  {
+    "subject": "electrified vehicle market",
+    "relation": "MARKET_SHARE_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "electrified vehicle market",
+    "relation": "MARKET_SHARE_PREVIOUS_YEAR",
+    "object": "30%"
+  },
+  {
+    "subject": "total EV sales",
+    "relation": "GROWTH_RATE",
+    "object": "21%"
+  },
+  {
+    "subject": "ICE sales",
+    "relation": "FALL_RATE",
+    "object": "9%"
+  },
+  {
+    "subject": "PHEV sales in China",
+    "relation": "GROWTH_RATE",
+    "object": "98%"
+  },
+  {
+    "subject": "PHEV sales in China",
+    "relation": "UNITS_SOLD",
+    "object": "more than 1 million"
+  },
+  {
+    "subject": "PHEV sales in China",
+    "relation": "SALES_QUARTER",
+    "object": "Q2 2024"
+  },
+  {
+    "subject": "PHEV sales in China",
+    "relation": "SALES_PREVIOUS_QUARTER",
+    "object": "Q2 2023"
+  },
+  {
+    "subject": "PHEV sales in China",
+    "relation": "SALES_UNITS",
+    "object": "more than a million units"
+  },
+  {
+    "subject": "Electric vehicle market share",
+    "relation": "MARKET_SHARE",
+    "object": "above 50%"
+  },
+  {
+    "subject": "Electric vehicle sales",
+    "relation": "GROWTH_RATE",
+    "object": "11%"
+  },
+  {
+    "subject": "ICE sales",
+    "relation": "DECLINE_RATE",
+    "object": "2%"
+  },
+  {
+    "subject": "Electric vehicle market share",
+    "relation": "FELL_SHORT_BY",
+    "object": "6%"
+  },
+  {
+    "subject": "Q2 2024",
+    "relation": "YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Q2 2023",
+    "relation": "YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Top five European markets",
+    "relation": "PERFORMANCE_COMPARISON",
+    "object": "outperformed the total vehicle market"
+  },
+  {
+    "subject": "US Electric Vehicle Sales",
+    "relation": "GROWTH_RATE",
+    "object": "14%"
+  },
+  {
+    "subject": "Hybrid Sales",
+    "relation": "GROWTH_RATE",
+    "object": "28%"
+  },
+  {
+    "subject": "ICE Sales",
+    "relation": "DECREASE_RATE",
+    "object": "4%"
+  },
+  {
+    "subject": "Year-to-Date Electrified Market Share",
+    "relation": "MARKET_SHARE",
+    "object": "19%"
+  },
+  {
+    "subject": "BEV Market Share",
+    "relation": "MARKET_SHARE",
+    "object": "7%"
+  },
+  {
+    "subject": "Hybrid Market Share",
+    "relation": "MARKET_SHARE",
+    "object": "10%"
+  },
+  {
+    "subject": "PHEV Market Share",
+    "relation": "MARKET_SHARE",
+    "object": "2%"
+  },
+  {
+    "subject": "China Domestic PHEV Sales",
+    "relation": "GROWTH_RATE",
+    "object": "98%"
+  },
+  {
+    "subject": "Total EV Market Growth",
+    "relation": "GROWTH_RATE",
+    "object": "35%"
+  },
+  {
+    "subject": "Year",
+    "relation": "YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Year Electrified Sales Recording Started",
+    "relation": "YEAR",
+    "object": "2014"
+  },
+  {
+    "subject": "The Motley Fool",
+    "relation": "FOUNDED_BY",
+    "object": "1993"
+  },
+  {
+    "subject": "electrified passenger vehicles",
+    "relation": "ANNUAL_SALES",
+    "object": "10 million units"
+  },
+  {
+    "subject": "electrified passenger vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "50%"
+  },
+  {
+    "subject": "electrified passenger vehicles",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "40 million in 2030"
+  },
+  {
+    "subject": "public and private chargers",
+    "relation": "AVAILABLE_PORTS_2022",
+    "object": "2.6 million"
+  },
+  {
+    "subject": "public and private chargers",
+    "relation": "NEEDED_PORTS_2025",
+    "object": "9.5 million"
+  },
+  {
+    "subject": "public and private chargers",
+    "relation": "NEEDED_PORTS_2030",
+    "object": "28.0 million"
+  },
+  {
+    "subject": "United States",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "2.6 million ports"
+  },
+  {
+    "subject": "United States",
+    "relation": "CHARGER_TARGET",
+    "object": "9.5 million ports by 2025"
+  },
+  {
+    "subject": "United States",
+    "relation": "CHARGER_TARGET",
+    "object": "28.0 million ports by 2030"
+  },
+  {
+    "subject": "McKinsey",
+    "relation": "PUBLISHED_BY",
+    "object": "October 5, 2023"
+  },
+  {
+    "subject": "United States",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "33%"
+  },
+  {
+    "subject": "Europe",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "23%"
+  },
+  {
+    "subject": "All locations",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "10%"
+  },
+  {
+    "subject": "Charging sessions",
+    "relation": "RESIDENTIAL_CHARGING_PERCENTAGE",
+    "object": "50%"
+  },
+  {
+    "subject": "States with ZEV regulations",
+    "relation": "NEW_ELECTRIC_VEHICLE_SHARE",
+    "object": "5%"
+  },
+  {
+    "subject": "States without ZEV regulations",
+    "relation": "AVERAGE_ELECTRIC_VEHICLE_SHARE",
+    "object": "1.3%"
+  },
+  {
+    "subject": "States with ZEV regulations",
+    "relation": "ELECTRIC_VEHICLE_SALES_2020",
+    "object": "two-thirds"
+  },
+  {
+    "subject": "Overall light-duty vehicle sales",
+    "relation": "ELECTRIC_VEHICLE_SALES_SHARE",
+    "object": "less than one-third"
+  },
+  {
+    "subject": "Metropolitan areas with greatest electric vehicle uptake in 2020",
+    "relation": "PROMOTION_ACTIONS",
+    "object": "strong mix of state, city, and utility"
+  },
+  {
+    "subject": "Eight of the 10 highest electric uptake areas",
+    "relation": "SUCCESS_FACTOR",
+    "object": "most successful policy supports"
+  },
+  {
+    "subject": "200 most populous metropolitan areas",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "935"
+  },
+  {
+    "subject": "ten areas with the highest workplace charging uptake",
+    "relation": "WORKPLACE_CHARGERS_PER_MILLION",
+    "object": "430"
+  },
+  {
+    "subject": "U.S. population",
+    "relation": "WORKPLACE_CHARGING_AVAILABILITY",
+    "object": "10%"
+  },
+  {
+    "subject": "Update on electric vehicle adoption across U.S. cities",
+    "relation": "PUBLISHED_ON",
+    "object": "August 31, 2020"
+  },
+  {
+    "subject": "surge of electric vehicles in United States cities",
+    "relation": "PUBLISHED_ON",
+    "object": "June 10, 2019"
+  },
+  {
+    "subject": "U.S. electric vehicle market",
+    "relation": "MARKET_SHARE",
+    "object": "5%"
+  },
+  {
+    "subject": "States with ZEV regulations",
+    "relation": "MARKET_SHARE",
+    "object": "two-thirds"
+  },
+  {
+    "subject": "States without ZEV regulations",
+    "relation": "MARKET_SHARE",
+    "object": "1.3%"
+  },
+  {
+    "subject": "2020 U.S. electric vehicle sales",
+    "relation": "RESPONSIBLE_FOR",
+    "object": "two-thirds"
+  },
+  {
+    "subject": "Overall light-duty vehicle sales",
+    "relation": "MARKET_SHARE",
+    "object": "less than one-third"
+  },
+  {
+    "subject": "Top 11 metropolitan areas",
+    "relation": "CONSUMER_INCENTIVES",
+    "object": "substantial"
+  },
+  {
+    "subject": "Metropolitan areas with highest electric uptake",
+    "relation": "ACTIONS_COUNT",
+    "object": "31 to 44"
+  },
+  {
+    "subject": "Areas with lowest electric uptake",
+    "relation": "ACTIONS_COUNT",
+    "object": "less than half"
+  },
+  {
+    "subject": "United States",
+    "relation": "MARKET_SIZE",
+    "object": "315,000 vehicles"
+  },
+  {
+    "subject": "Electric vehicle sales",
+    "relation": "GROWTH_RATE",
+    "object": "from a few thousand vehicles in 2010 to more than 315,000 vehicles sold annually from 2018 to 2020"
+  },
+  {
+    "subject": "States with zero-emission vehicle regulations",
+    "relation": "RESPONSIBLE_FOR_SALES",
+    "object": "two-thirds of 2020 U.S. electric vehicle sales"
+  },
+  {
+    "subject": "States with zero-emission vehicle regulations",
+    "relation": "LIGHT_DUTY_VEHICLE_SALES_SHARE",
+    "object": "less than one-third"
+  },
+  {
+    "subject": "Metropolitan areas with greatest electric vehicle uptake in 2020",
+    "relation": "PROMOTION_ACTIONS",
+    "object": "31 to 44 actions"
+  },
+  {
+    "subject": "Areas with lowest electric vehicle uptake",
+    "relation": "PROMOTION_ACTIONS",
+    "object": "less than half of 31 to 44 actions"
+  },
+  {
+    "subject": "U.S. cities",
+    "relation": "ELECTRIC_SHARE",
+    "object": "10%"
+  },
+  {
+    "subject": "U.S. cities",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "935"
+  },
+  {
+    "subject": "Top-ten markets",
+    "relation": "WORKPLACE_CHARGERS_PER_MILLION",
+    "object": "430"
+  },
+  {
+    "subject": "U.S. population",
+    "relation": "WORKPLACE_CHARGING_AVAILABILITY",
+    "object": "less than 10%"
+  },
+  {
+    "subject": "Update on electric vehicle adoption",
+    "relation": "PUBLISHED_BY",
+    "object": "August 31, 2020"
+  },
+  {
+    "subject": "Surge of electric vehicles",
+    "relation": "PUBLISHED_BY",
+    "object": "June 10, 2019"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE",
+    "object": "51.3%"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "YEAR_OVER_YEAR_DECREASE",
+    "object": "13.3%"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE_PREVIOUS_YEAR",
+    "object": "61.7%"
+  },
+  {
+    "subject": "Average Transaction Price for New EV",
+    "relation": "DOLLAR_AMOUNT",
+    "object": "$55,167"
+  },
+  {
+    "subject": "Average Transaction Price for New EV",
+    "relation": "DECREASE_COMPARED_TO_Q1_2023",
+    "object": "9.0%"
+  },
+  {
+    "subject": "Average Transaction Price for New EV",
+    "relation": "DECREASE_QUARTER_OVER_QUARTER",
+    "object": "3.8%"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "DECREASE_ROUGHLY",
+    "object": "13.5%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Q1 2023",
+    "relation": "YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Electric vehicle sales in the U.S.",
+    "relation": "DECLINE_PERCENTAGE",
+    "object": "81.2%"
+  },
+  {
+    "subject": "Electric vehicle sales in the U.S.",
+    "relation": "INCREASE_PERCENTAGE",
+    "object": "20.4%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "FIRST_DOWN_TURN_SINCE",
+    "object": "Q2 2020"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE",
+    "object": "61.7%"
+  },
+  {
+    "subject": "Q1 2023",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "minimal"
+  },
+  {
+    "subject": "BMW",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Cadillac",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Ford",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Hyundai",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Kia",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Lexus",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Mercedes",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Rivian",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Vinfast",
+    "relation": "YEAR_OVER_YEAR_GROWTH",
+    "object": "more than 50%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "AVERAGE_TRANSACTION_PRICE",
+    "object": "$55,167"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "DECREASE_COMPARED_TO_Q1_2023",
+    "object": "9.0%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "DECREASE_QUARTER_OVER_QUARTER",
+    "object": "3.8%"
+  },
+  {
+    "subject": "Q1 2024",
+    "relation": "YEAR_OVER_YEAR_DECREASE",
+    "object": "13.5%"
+  },
+  {
+    "subject": "Incentive spending",
+    "relation": "INCREASED_NOTABLY",
+    "object": "past year"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "TAX_CREDIT",
+    "object": "beneficial tax rate from the Shanghai government"
+  },
+  {
+    "subject": "Battery Electric Vehicles (BEVs)",
+    "relation": "MARKET_SHARE",
+    "object": "81%"
+  },
+  {
+    "subject": "Plug-in Hybrid Electric Vehicles (PHEVs)",
+    "relation": "EXPECTED_SALES_BY_YEAR",
+    "object": "5.8 million by 2030"
+  },
+  {
+    "subject": "Internal Combustion Engine (ICE) vehicles",
+    "relation": "EXPECTED_SALES_BY_YEAR",
+    "object": "81.7 million by 2025"
+  },
+  {
+    "subject": "Electric Vehicles (EVs)",
+    "relation": "COMPOUND_ANNUAL_GROWTH_RATE",
+    "object": "29%"
+  },
+  {
+    "subject": "Total EV sales",
+    "relation": "GROWTH_FROM_YEAR_TO_YEAR",
+    "object": "2.5 million in 2020 to 11.2 million in 2025"
+  },
+  {
+    "subject": "Total EV sales",
+    "relation": "EXPECTED_SALES_BY_YEAR",
+    "object": "31.1 million by 2030"
+  },
+  {
+    "subject": "Electric Vehicles (EVs)",
+    "relation": "MARKET_SHARE",
+    "object": "32%"
+  },
+  {
+    "subject": "Annual car sales",
+    "relation": "EXPECTED_RECOVERY_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Consumers",
+    "relation": "LIMIT_USE_PUBLIC_TRANSPORTATION",
+    "object": "over two-thirds"
+  },
+  {
+    "subject": "Consumers",
+    "relation": "LIMIT_USE_RIDE_SHARING_APPS",
+    "object": "well over half"
+  },
+  {
+    "subject": "Consumers",
+    "relation": "PLAN_TO_BUY_VEHICLE_ONLINE",
+    "object": "a fifth"
+  },
+  {
+    "subject": "United Kingdom",
+    "relation": "TARGET_YEAR",
+    "object": "2035"
+  },
+  {
+    "subject": "United Kingdom",
+    "relation": "NET_ZERO_EMISSIONS_TARGET",
+    "object": "2050"
+  },
+  {
+    "subject": "Germany",
+    "relation": "GREENHOUSE_GAS_EMISSIONS_REDUCTION_TARGET_2020",
+    "object": "40%"
+  },
+  {
+    "subject": "Germany",
+    "relation": "GREENHOUSE_GAS_EMISSIONS_REDUCTION_TARGET_2030",
+    "object": "55%"
+  },
+  {
+    "subject": "Germany",
+    "relation": "GREENHOUSE_GAS_EMISSIONS_REDUCTION_TARGET_2050",
+    "object": "95%"
+  },
+  {
+    "subject": "Germany",
+    "relation": "REFERENCE_YEAR",
+    "object": "1990"
+  },
+  {
+    "subject": "Tesla Model 3",
+    "relation": "MARKET_SHARE",
+    "object": "50%"
+  },
+  {
+    "subject": "United States EV market",
+    "relation": "YEAR",
+    "object": "2019"
+  },
+  {
+    "subject": "United States EV market",
+    "relation": "YEAR",
+    "object": "2020"
+  },
+  {
+    "subject": "Europe",
+    "relation": "NEW_MODELS_EXPECTED",
+    "object": "33 in 2020"
+  },
+  {
+    "subject": "Europe",
+    "relation": "NEW_MODELS_EXPECTED",
+    "object": "22 in 2021"
+  },
+  {
+    "subject": "Europe",
+    "relation": "NEW_MODELS_EXPECTED",
+    "object": "30 in 2022"
+  },
+  {
+    "subject": "Europe",
+    "relation": "NEW_MODELS_EXPECTED",
+    "object": "33 in 2023"
+  },
+  {
+    "subject": "BEV models in the EU",
+    "relation": "AVAILABLE_MODELS",
+    "object": "100 in 2022"
+  },
+  {
+    "subject": "BEV models in the EU",
+    "relation": "AVAILABLE_MODELS",
+    "object": "172 in 2025"
+  },
+  {
+    "subject": "United States",
+    "relation": "AVAILABLE_MODELS_PREDICTED",
+    "object": "130 by 2026"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "DISPLACES_OIL",
+    "object": "1.7 million barrels per day"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "3%"
+  },
+  {
+    "subject": "Electric Vehicles",
+    "relation": "DISPLACES_OIL",
+    "object": "1.7 million barrels per day"
+  },
+  {
+    "subject": "Electric Vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "3%"
+  },
+  {
+    "subject": "Charging Infrastructure Market",
+    "relation": "MARKET_SIZE",
+    "object": "$242 billion"
+  },
+  {
+    "subject": "Passenger EVs",
+    "relation": "NUMBER_ON_ROAD",
+    "object": "722 million"
+  },
+  {
+    "subject": "Gap in Electric Passenger Vehicles",
+    "relation": "NUMBER",
+    "object": "380 million"
+  },
+  {
+    "subject": "Electricity Demand from Road Transport",
+    "relation": "ELECTRICITY_DEMAND",
+    "object": "8.3 petawatt hours"
+  },
+  {
+    "subject": "Road Transport",
+    "relation": "OIL_DEMAND_PEAK",
+    "object": "true"
+  },
+  {
+    "subject": "Road Transport",
+    "relation": "EMISSIONS_PEAK",
+    "object": "true"
+  },
+  {
+    "subject": "Passenger EVs",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2040"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "DELIVERIES",
+    "object": "51,000 EVs"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "MARKET_SHARE",
+    "object": "best-selling automotive brand in Vietnam for October 2024"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "MARKET_SHARE",
+    "object": "best-selling automotive brand in Vietnam for first ten months of 2024"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "FACTORY_CAPACITY",
+    "object": "300,000 EVs per year"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "FACTORY_CONSTRUCTION_START",
+    "object": "December 2024"
+  },
+  {
+    "subject": "VinFast",
+    "relation": "FACTORY_OPERATION_START",
+    "object": "2025"
+  },
+  {
+    "subject": "Stellantis",
+    "relation": "INVESTMENT_AMOUNT",
+    "object": "USD 155 million"
+  },
+  {
+    "subject": "Volkswagen",
+    "relation": "INVESTMENT_AMOUNT",
+    "object": "USD 100 million"
+  },
+  {
+    "subject": "Glencore",
+    "relation": "INVESTMENT_AMOUNT",
+    "object": "USD 100 million"
+  },
+  {
+    "subject": "Chrysler",
+    "relation": "INVESTMENT_AMOUNT",
+    "object": "USD 100 million"
+  },
+  {
+    "subject": "Special Purpose Acquisition Company",
+    "relation": "TOTAL_INVESTMENT",
+    "object": "USD 1 billion"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "PARTNERSHIP_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "IRA",
+    "relation": "TAX_CREDIT",
+    "object": "Yes"
+  },
+  {
+    "subject": "cumulative early-stage VC",
+    "relation": "FLOWING_TO",
+    "object": "USD 430 million"
+  },
+  {
+    "subject": "cumulative early-stage VC",
+    "relation": "PERCENTAGE_FOR_LITHIUM_BATTERIES",
+    "object": "75%"
+  },
+  {
+    "subject": "cumulative investments for batteries",
+    "relation": "AMOUNT",
+    "object": "USD 1.4 billion"
+  },
+  {
+    "subject": "lithium chemistries",
+    "relation": "PERCENTAGE_OF_TOTAL",
+    "object": "60%"
+  },
+  {
+    "subject": "emerging battery concepts",
+    "relation": "PERCENTAGE_GROWTH",
+    "object": "from less than 15% to more than 25%"
+  },
+  {
+    "subject": "2018-2020 period",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "USD 430 million"
+  },
+  {
+    "subject": "2021-2023 period",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "USD 1.4 billion"
+  },
+  {
+    "subject": "pure play EV makers",
+    "relation": "MARKET_SIZE",
+    "object": "USD 1 trillion"
+  },
+  {
+    "subject": "pure play EV makers",
+    "relation": "MARKET_SIZE",
+    "object": "USD 100 billion"
+  },
+  {
+    "subject": "pure play EV makers",
+    "relation": "MARKET_SIZE",
+    "object": "USD 1.6 trillion"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "DRIVES_MARKET_CAPITALISATION",
+    "object": "true"
+  },
+  {
+    "subject": "2020",
+    "relation": "MARKET_CAPITALISATION",
+    "object": "USD 100 billion"
+  },
+  {
+    "subject": "2023",
+    "relation": "MARKET_CAPITALISATION",
+    "object": "USD 1 trillion"
+  },
+  {
+    "subject": "2021",
+    "relation": "PEAK_MARKET_CAPITALISATION",
+    "object": "USD 1.6 trillion"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "GROWTH_RATE",
+    "object": "23%"
+  },
+  {
+    "subject": "Global spending",
+    "relation": "MARKET_SIZE",
+    "object": "billions"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "MARKET_SHARE",
+    "object": "20%"
+  },
+  {
+    "subject": "Electric vehicles",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "Road transport",
+    "relation": "ACCOUNTS_FOR",
+    "object": "1/6 of global emissions"
+  },
+  {
+    "subject": "California Air Resources Board",
+    "relation": "REGULATION_START_YEAR",
+    "object": "2024"
+  },
+  {
+    "subject": "California Air Resources Board",
+    "relation": "ZERO_EMISSION_DEADLINE_YEAR",
+    "object": "2035"
+  },
+  {
+    "subject": "Nikola Corporation",
+    "relation": "FIRST_QUARTER_YEAR",
+    "object": "2023"
+  },
+  {
+    "subject": "Colin McKerracher",
+    "relation": "LEAD_AUTHOR_OF",
+    "object": "BloombergNEF Electric Vehicle Outlook"
+  },
+  {
+    "subject": "BloombergNEF",
+    "relation": "PROJECTS_PEAK_YEAR",
+    "object": "2027"
+  },
+  {
+    "subject": "BloombergNEF",
+    "relation": "OIL_DEMAND_PEAK_YEAR",
+    "object": "2027"
+  },
+  {
+    "subject": "EVs",
+    "relation": "DISPLACE_OIL",
+    "object": "1.7 million barrels per day"
+  },
+  {
+    "subject": "China",
+    "relation": "DOMINATES",
+    "object": "global EV sales"
+  },
+  {
+    "subject": "China",
+    "relation": "MANUFACTURES",
+    "object": "battery cells"
+  },
+  {
+    "subject": "ICCT",
+    "relation": "PUBLISHED",
+    "object": "Evaluating electric vehicle market growth across U.S. cities"
+  },
+  {
+    "subject": "ICCT",
+    "relation": "PUBLISHED_IN",
+    "object": "September 2021"
+  },
+  {
+    "subject": "Elizabeth Krear",
+    "relation": "VP_OF",
+    "object": "J.D. Power Electric Vehicle Practice"
+  },
+  {
+    "subject": "J.D. Power",
+    "relation": "SURVEY_RESULT",
+    "object": "29.2%"
+  },
+  {
+    "subject": "UAW",
+    "relation": "STRIKE_AGAINST",
+    "object": "General Motors"
+  },
+  {
+    "subject": "UAW",
+    "relation": "STRIKE_AGAINST",
+    "object": "Ford"
+  },
+  {
+    "subject": "UAW",
+    "relation": "STRIKE_AGAINST",
+    "object": "Stellantis"
+  },
+  {
+    "subject": "Public charging",
+    "relation": "FAILURE_RATE",
+    "object": "one in five"
+  },
+  {
+    "subject": "J.D. Power",
+    "relation": "PROJECTS_MARKET_SCOPE_2026",
+    "object": "75%"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "LOWEST_EARNINGS_IN",
+    "object": "two years"
+  },
+  {
+    "subject": "Tesla",
+    "relation": "MARKET_SHARE",
+    "object": "more than half"
+  },
+  {
+    "subject": "United States",
+    "relation": "EV_SHARE_2020",
+    "object": "2.4%"
+  },
+  {
+    "subject": "ZEV states",
+    "relation": "COMBINED_EV_SHARE",
+    "object": "5%"
+  },
+  {
+    "subject": "States without ZEV",
+    "relation": "COMBINED_EV_SHARE",
+    "object": "1.3%"
+  },
+  {
+    "subject": "ZEV states",
+    "relation": "FRACTION_OF_2020_EV_SALES",
+    "object": "two-thirds"
+  },
+  {
+    "subject": "Top 10 metro areas",
+    "relation": "PUBLIC_CHARGERS_PER_MILLION",
+    "object": "935"
+  },
+  {
+    "subject": "Top 10 metro areas",
+    "relation": "WORKPLACE_CHARGERS_PER_MILLION",
+    "object": "430"
+  },
+  {
+    "subject": "US EV sales H1 2023",
+    "relation": "GROWTH_RATE",
+    "object": "51%"
+  },
+  {
+    "subject": "Federal government",
+    "relation": "EV_TAX_CREDIT",
+    "object": "$7,500"
+  },
+  {
+    "subject": "United States",
+    "relation": "ANNUAL_EV_SALES_2018_2020",
+    "object": "more than 315,000"
+  },
+  {
+    "subject": "Charging infrastructure market",
+    "relation": "SIZE_2050",
+    "object": "$242 billion"
+  },
+  {
+    "subject": "Biden administration",
+    "relation": "CHARGER_TARGET_YEAR",
+    "object": "2030"
+  },
+  {
+    "subject": "General Motors",
+    "relation": "ICE_PHASE_OUT_TARGET",
+    "object": "2035"
+  },
+  {
+    "subject": "Ford",
+    "relation": "DELAYED",
+    "object": "EV investment"
+  },
+  {
+    "subject": "ZEV states",
+    "relation": "MORE_ELECTRIC_MODELS_THAN_NON_ZEV",
+    "object": "at least 13 more electric models"
   }
 ]
